@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en" data-site="dclp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shared Task — Chinese document-level meaning representation parsing | SIGHAN-DCLP 2027</title>
+<meta name="description" content="The SIGHAN-DCLP 2027 shared task on Chinese document-level meaning representation parsing, over Chinese UMR and document-level Chinese AMR data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%2323695c'/><text x='50' y='72' font-size='64' text-anchor='middle' fill='white' font-family='serif'>多</text></svg>">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true">多</span>
+      <span class="brand__text">
+        <span class="brand__name">SIGHAN-DCLP 2027</span>
+        <span class="brand__sub">Diversifying Chinese Language Processing</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Overview</a>
+      <a href="cfp.html">Call for Papers</a>
+      <a href="shared-task.html" aria-current="page">Shared Task</a>
+      <a href="organizers.html">Organizers</a>
+      <a class="nav__cta" href="../index.html">SIGHAN&nbsp;&larr;</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero hero--tight">
+    <div class="wrap">
+      <p class="hero__eyebrow">Shared task</p>
+      <h1>Chinese document-level meaning representation parsing</h1>
+      <p class="hero__lede">
+        Map Chinese documents into explicit, graph-based semantic structures that reach across
+        sentence boundaries — evaluated on a Chinese Uniform Meaning Representation (UMR) data
+        set and a document-level Chinese Abstract Meaning Representation (AMR) data set.
+      </p>
+      <div class="hero__meta">
+        <span><strong>Chair</strong> Zhixing Xu</span>
+        <span><strong>Expected</strong> ~10–15 teams</span>
+        <span><strong>Registration</strong> TBA</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap-narrow prose">
+
+      <div class="callout callout--status">
+        <span class="callout__title">Provisional — proposal pending approval</span>
+        <p>
+          Data release, evaluation windows, baselines, and the scoring script are not yet
+          published. This page describes the task as proposed; details will be finalised once the
+          workshop proposal is accepted.
+        </p>
+      </div>
+
+      <h2 id="task">The task</h2>
+      <p>
+        Participants map Chinese documents into explicit semantic structures. Both target
+        frameworks provide graph-based representations of predicates, arguments, entities, and
+        semantic relations, while extending analysis across sentence boundaries:
+      </p>
+      <ul>
+        <li><strong>Chinese UMR</strong> represents entity and event coreference, temporal
+            relations, and modal dependencies.</li>
+        <li><strong>Document-level Chinese AMR</strong> provides a complementary representation
+            of semantic connections across a document.</li>
+      </ul>
+      <p>
+        Evaluating on both resources benchmarks LLM-based, neural, and hybrid approaches, and
+        tests generalization across related representation frameworks.
+      </p>
+
+      <h2 id="motivation">Why this task</h2>
+      <p>
+        The task addresses a limitation of current generative systems: although LLMs perform many
+        language-understanding tasks well, their meaning representations remain largely implicit.
+        For SIGHAN, it also moves Chinese semantic parsing from isolated sentences toward
+        explicit document-level understanding — a step beyond the sentence-level Chinese AMR
+        evaluations of recent years.
+      </p>
+
+      <h2 id="participation">Participation</h2>
+      <p>
+        We expect approximately <strong>10–15 participating teams</strong>, based on
+        participation in recent Chinese semantic parsing evaluations and in previous SIGHAN
+        shared tasks. Participating teams are invited to submit system description papers, which
+        are reviewed and, if accepted, appear in the workshop proceedings.
+      </p>
+
+      <h2 id="schedule">Schedule</h2>
+      <ul class="dates">
+        <li><span class="d-label">Registration opens</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label">Training data release</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label">Test data release</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label">System submission deadline</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label">Results released</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label">System description papers due</span><span class="d-value">TBA</span></li>
+      </ul>
+
+      <h2 id="background">Background and resources</h2>
+      <p>Useful starting points for the two frameworks:</p>
+      <ul>
+        <li>Julia Bonn et al. 2024.
+            <a class="ext" href="https://aclanthology.org/2024.lrec-main.229/">Building a Broad
+            Infrastructure for Uniform Meaning Representations</a>. LREC–COLING 2024 — the first
+            release of the UMR data set.</li>
+        <li>Zhixing Xu, Yixuan Zhang, Bin Li, Junsheng Zhou, and Weiguang Qu. 2023.
+            <a class="ext" href="https://aclanthology.org/2023.ccl-3.7/">Overview of CCL23-Eval
+            Task 2: The Third Chinese Abstract Meaning Representation Parsing Evaluation</a>.</li>
+        <li><a class="ext" href="https://umr4nlp.github.io/web/index.html">Uniform Meaning
+            Representation project</a> — specification, guidelines, and tooling.</li>
+        <li><a class="ext" href="https://github.com/GoThereGit/Chinese-AMR">Chinese AMR corpus</a>
+            — the Chinese AMR resource on GitHub.</li>
+      </ul>
+
+      <h2 id="lineage">Previous SIGHAN shared tasks</h2>
+      <p>
+        SIGHAN's shared-task tradition runs back to the International Chinese Word Segmentation
+        Bakeoff in 2003, through named-entity recognition, spelling check, and most recently
+        dimensional aspect-based sentiment analysis at SIGHAN-10.
+      </p>
+      <div class="btn-row" style="margin-top:1rem">
+        <a class="btn btn--ghost" href="../shared-tasks.html">All SIGHAN shared tasks &amp; bakeoffs</a>
+        <a class="btn btn--ghost ext" href="https://aclanthology.org/2024.sighan-1.19/">SIGHAN-10 dimABSA overview</a>
+      </div>
+
+      <h2 id="contact">Contact</h2>
+      <p>
+        The shared task is chaired by <strong>Zhixing Xu</strong>. Questions about the task go to
+        the workshop organizers at <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>. A registration form and the data release will be
+        announced on this page.
+      </p>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>SIGHAN-DCLP 2027</h4>
+        <ul>
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="cfp.html">Call for papers</a></li>
+          <li><a href="shared-task.html">Shared task</a></li>
+          <li><a href="organizers.html">Organizers &amp; committee</a></li>
+          <li><a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>SIGHAN</h4>
+        <ul>
+          <li><a href="../index.html">SIGHAN home</a></li>
+          <li><a href="../about.html">About &amp; officers</a></li>
+          <li><a href="../workshops.html">Workshop archive</a></li>
+          <li><a href="../shared-tasks.html">Shared tasks &amp; bakeoffs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Previous editions</h4>
+        <ul>
+          <li><a class="ext" href="https://sighan2024.github.io/">SIGHAN-10 (2024)</a></li>
+          <li><a class="ext" href="https://sites.google.com/site/aclsighan7/">SIGHAN-7 (2013)</a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/">Legacy SIGHAN site</a></li>
+          <li><a class="ext" href="https://aclanthology.org/sigs/sighan/">All proceedings</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Association</h4>
+        <ul>
+          <li><a class="ext" href="https://www.aclweb.org/">ACL</a></li>
+          <li><a class="ext" href="https://aclrollingreview.org/">ACL Rolling Review</a></li>
+          <li><a class="ext" href="https://openreview.net/">OpenReview</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="colophon">
+      <p><strong>SIGHAN-DCLP 2027</strong> — Diversifying Chinese Language Processing.
+         A proposed workshop sponsored by the ACL Special Interest Group on Chinese Language
+         Processing. Status: proposal pending approval.</p>
+      <p>Contact: <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
