@@ -152,6 +152,11 @@ code { font-family: var(--font-mono); font-size: .9em; background: var(--paper-s
 }
 :root[data-site="dclp"] .brand__mark { background: var(--accent); }
 @media (prefers-color-scheme: dark) { .brand__mark { color: #14171c; } }
+/* The official SIGHAN logo already contains the wordmark, so pages using it
+   drop .brand__name and pair the image with the subtitle alone. */
+.brand__logo { display: block; flex: none; height: 46px; width: auto; }
+.brand > .brand__sub { align-self: center; white-space: nowrap; }
+
 .brand__text  { display: flex; flex-direction: column; }
 .brand__name  { font-family: var(--font-display); font-weight: 600; font-size: 1.06rem; letter-spacing: .01em; }
 .brand__sub   { font-size: .72rem; color: var(--ink-muted); letter-spacing: .04em; text-transform: uppercase; }
@@ -169,12 +174,17 @@ code { font-family: var(--font-mono); font-size: .9em; background: var(--paper-s
 .nav .nav__cta:hover { background: var(--accent-deep); color: #fff; }
 @media (prefers-color-scheme: dark) { .nav .nav__cta { color: #14171c; } .nav .nav__cta:hover { color: #14171c; } }
 
+@media (max-width: 420px) {
+  .brand > .brand__sub { display: none; }
+}
+
 @media (max-width: 700px) {
   /* A sticky header eats too much of a phone viewport once the nav wraps. */
   .site-header { position: static; }
   .site-header__inner { padding: .65rem 1.25rem .5rem; gap: .5rem 1rem; }
   .nav { margin-left: 0; width: 100%; gap: .15rem; }
   .nav a { font-size: .88rem; padding: .32rem .5rem; }
+  .brand__logo { height: 38px; }
   html { scroll-padding-top: 1rem; }
 }
 

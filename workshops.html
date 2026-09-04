@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23a8322b'/><text x='50' y='72' font-size='64' text-anchor='middle' fill='white' font-family='serif'>漢</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23d13838'/><text x='50' y='72' font-size='64' text-anchor='middle' fill='white' font-family='serif'>漢</text></svg>">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -17,11 +17,12 @@
 <header class="site-header">
   <div class="site-header__inner">
     <a class="brand" href="index.html">
-      <span class="brand__mark" aria-hidden="true">漢</span>
-      <span class="brand__text">
-        <span class="brand__name">SIGHAN</span>
-        <span class="brand__sub">ACL Special Interest Group</span>
-      </span>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/img/sighan-logo-dark.png">
+        <img class="brand__logo" src="assets/img/sighan-logo.png"
+             width="146" height="93" alt="SIGHAN">
+      </picture>
+      <span class="brand__sub">ACL Special Interest Group</span>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="index.html">Home</a>
