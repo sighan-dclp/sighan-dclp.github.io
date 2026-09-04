@@ -143,15 +143,6 @@ code { font-family: var(--font-mono); font-size: .9em; background: var(--paper-s
 
 .brand { display: flex; align-items: center; gap: .65rem; text-decoration: none; color: var(--ink); }
 .brand:hover { color: var(--ink); }
-.brand__mark {
-  width: 34px; height: 34px; flex: none; border-radius: 8px;
-  background: var(--accent); color: #fff;
-  display: grid; place-items: center;
-  font-family: var(--font-display); font-size: 1.15rem; line-height: 1;
-  padding-bottom: 1px;
-}
-:root[data-site="dclp"] .brand__mark { background: var(--accent); }
-@media (prefers-color-scheme: dark) { .brand__mark { color: #14171c; } }
 /* The official SIGHAN logo already contains the wordmark, so pages using it
    drop .brand__name and pair the image with the subtitle alone. */
 .brand__logo { display: block; flex: none; height: 46px; width: auto; }
