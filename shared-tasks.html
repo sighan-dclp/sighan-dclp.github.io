@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-site="sighan">
+<html lang="en" data-site="sighan" data-title-zh-hans="SIGHAN 评测任务与 Bakeoff" data-title-zh-hant="SIGHAN 評測任務與 Bakeoff">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,14 +8,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
+<script src="assets/js/lang.js?v=3"></script>
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main"><span lang="en">Skip to content</span><span lang="zh-Hans">跳到正文</span><span lang="zh-Hant">跳到正文</span></a>
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -25,15 +26,20 @@
         <img class="brand__logo" src="assets/img/sighan-logo.png"
              width="146" height="93" alt="SIGHAN">
       </picture>
-      <span class="brand__sub">ACL Special Interest Group</span>
+      <span class="brand__sub"><span lang="en">ACL Special Interest Group</span><span lang="zh-Hans">ACL 中文语言处理专业委员会</span><span lang="zh-Hant">ACL 中文語言處理專業委員會</span></span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="workshops.html">Workshops</a>
-      <a href="shared-tasks.html" aria-current="page">Shared Tasks</a>
+      <a href="index.html"><span lang="en">Home</span><span lang="zh-Hans">首页</span><span lang="zh-Hant">首頁</span></a>
+      <a href="about.html"><span lang="en">About</span><span lang="zh-Hans">关于</span><span lang="zh-Hant">關於</span></a>
+      <a href="workshops.html"><span lang="en">Workshops</span><span lang="zh-Hans">历届研讨会</span><span lang="zh-Hant">歷屆研討會</span></a>
+      <a href="shared-tasks.html" aria-current="page"><span lang="en">Shared Tasks</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a>
       <a class="nav__cta" href="dclp/index.html">SIGHAN-DCLP&nbsp;2027</a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Language / 语言 / 語言">
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="true" title="English" aria-label="English">EN</button>
+      <button type="button" data-set-lang="zh-Hans" lang="zh-Hans" aria-pressed="false" title="简体中文" aria-label="简体中文">简</button>
+      <button type="button" data-set-lang="zh-Hant" lang="zh-Hant" aria-pressed="false" title="繁體中文" aria-label="繁體中文">繁</button>
+    </div>
   </div>
 </header>
 
@@ -41,13 +47,13 @@
 
   <section class="hero hero--tight">
     <div class="wrap">
-      <p class="hero__eyebrow">Evaluations</p>
-      <h1>Shared tasks &amp; bakeoffs</h1>
+      <p class="hero__eyebrow"><span lang="en">Evaluations</span><span lang="zh-Hans">评测</span><span lang="zh-Hant">評測</span></p>
+      <h1><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></h1>
       <p class="hero__lede">
-        SIGHAN's shared-task evaluations — the <em>bakeoffs</em> — have supplied the field with
+        <span lang="en">SIGHAN's shared-task evaluations — the <em>bakeoffs</em> — have supplied the field with
         common training and test sets, common metrics, and comparable results since 2003. Several
         of them, notably the word segmentation and spelling check releases, are still standard
-        benchmarks two decades later.
+        benchmarks two decades later.</span><span lang="zh-Hans">自2003年以来，SIGHAN 的评测任务——即 <em>Bakeoff</em>——为该领域提供了统一的训练集与测试集、统一的评价指标以及可相互比较的结果。其中若干评测，尤其是分词和拼写检查评测发布的数据集，二十年后的今天仍是标准基准。</span><span lang="zh-Hant">自2003年以來，SIGHAN 的評測任務——即 <em>Bakeoff</em>——為該領域提供了統一的訓練集與測試集、統一的評價指標以及可相互比較的結果。其中若干評測，尤其是斷詞和拼字檢查評測發布的資料集，二十年後的今天仍是標準基準。</span>
       </p>
     </div>
   </section>
@@ -55,14 +61,15 @@
   <section class="section">
     <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">Next</p>
-        <h2>2027 — Chinese document-level meaning representation parsing</h2>
-        <p>The shared task of the SIGHAN-DCLP 2027 workshop: mapping Chinese documents
+        <p class="eyebrow"><span lang="en">Next</span><span lang="zh-Hans">下一届</span><span lang="zh-Hant">下一屆</span></p>
+        <h2><span lang="en">2027 — Chinese document-level meaning representation parsing</span><span lang="zh-Hans">2027——中文篇章级语义表示解析</span><span lang="zh-Hant">2027——中文篇章級語意表示解析</span></h2>
+        <p><span lang="en">The shared task of the SIGHAN-DCLP 2027 workshop: mapping Chinese documents
            into explicit semantic structures, over a Chinese UMR data set and a document-level
-           Chinese AMR data set.</p>
+           Chinese AMR data set. The evaluation runs January–April 2027 (tentative); results are
+           presented at SIGHAN-DCLP 2027, held with ACL 2027 in Kyoto, Japan.</span><span lang="zh-Hans">SIGHAN-DCLP 2027 研讨会的评测任务：基于一个中文 UMR 数据集和一个篇章级中文 AMR 数据集，将中文篇章映射为显式的语义结构。评测拟于2027年1月至4月进行（暂定），结果将在与 ACL 2027 同期于日本京都举办的 SIGHAN-DCLP 2027 研讨会上发布。</span><span lang="zh-Hant">SIGHAN-DCLP 2027 研討會的評測任務：基於一個中文 UMR 資料集和一個篇章級中文 AMR 資料集，將中文篇章對映為顯式的語意結構。評測擬於2027年1月至4月進行（暫定），結果將在與 ACL 2027 同期於日本京都舉辦的 SIGHAN-DCLP 2027 研討會上發布。</span></p>
       </div>
       <div class="btn-row" style="margin-top:0">
-        <a class="btn btn--primary" href="dclp/shared-task.html">Task details &rarr;</a>
+        <a class="btn btn--primary" href="dclp/shared-task.html"><span lang="en">Task details &rarr;</span><span lang="zh-Hans">任务详情 &rarr;</span><span lang="zh-Hant">任務詳情 &rarr;</span></a>
       </div>
     </div>
   </section>
@@ -70,10 +77,10 @@
   <section class="section">
     <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">History</p>
-        <h2>Past evaluations</h2>
-        <p>Newest first. Data releases from the early word-segmentation bakeoffs are available
-           for non-commercial use from the legacy SIGHAN site.</p>
+        <p class="eyebrow"><span lang="en">History</span><span lang="zh-Hans">历史</span><span lang="zh-Hant">歷史</span></p>
+        <h2><span lang="en">Past evaluations</span><span lang="zh-Hans">往届评测</span><span lang="zh-Hant">往屆評測</span></h2>
+        <p><span lang="en">Newest first. Data releases from the early word-segmentation bakeoffs are available
+           for non-commercial use from the legacy SIGHAN site.</span><span lang="zh-Hans">按时间倒序排列。早期分词评测发布的数据可从 SIGHAN 旧版网站获取，供非商业用途使用。</span><span lang="zh-Hant">按時間倒序排列。早期斷詞評測發布的資料可從 SIGHAN 舊版網站獲取，供非商業用途使用。</span></p>
       </div>
 
       <ul class="editions">
@@ -81,13 +88,13 @@
         <li>
           <span class="ed-year">2024</span>
           <div class="ed-body">
-            <h3>Chinese dimensional aspect-based sentiment analysis (dimABSA)</h3>
-            <p>At SIGHAN-10, ACL 2024. 61 registered participants, 11 teams submitting systems,
-               7 technical reports.</p>
+            <h3><span lang="en">Chinese dimensional aspect-based sentiment analysis (dimABSA)</span><span lang="zh-Hans">中文维度化方面级情感分析（dimABSA）</span><span lang="zh-Hant">中文維度化方面級情感分析（dimABSA）</span></h3>
+            <p><span lang="en">At SIGHAN-10, ACL 2024. 61 registered participants, 11 teams submitting systems,
+               7 technical reports.</span><span lang="zh-Hans">举办于 SIGHAN-10（ACL 2024）。注册参与者61名，提交系统的队伍11支，技术报告7篇。</span><span lang="zh-Hant">舉辦於 SIGHAN-10（ACL 2024）。註冊參與者61名，提交系統的隊伍11支，技術報告7篇。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://aclanthology.org/2024.sighan-1.19/">Task overview</a>
-              <a class="ext" href="https://sighan2024.github.io/">Workshop site</a>
-              <a class="ext" href="https://aclanthology.org/volumes/2024.sighan-1/">Proceedings</a>
+              <a class="ext" href="https://aclanthology.org/2024.sighan-1.19/"><span lang="en">Task overview</span><span lang="zh-Hans">任务综述</span><span lang="zh-Hant">任務綜述</span></a>
+              <a class="ext" href="https://sighan2024.github.io/"><span lang="en">Workshop site</span><span lang="zh-Hans">研讨会网站</span><span lang="zh-Hant">研討會網站</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/2024.sighan-1/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -95,11 +102,11 @@
         <li>
           <span class="ed-year">2015</span>
           <div class="ed-body">
-            <h3>Chinese Spelling Check — SIGHAN 2015 bake-off</h3>
-            <p>At SIGHAN-8, ACL–IJCNLP 2015. The SIGHAN-15 spelling check set remains a widely
-               used benchmark for Chinese spelling correction.</p>
+            <h3><span lang="en">Chinese Spelling Check — SIGHAN 2015 bake-off</span><span lang="zh-Hans">中文拼写检查——SIGHAN 2015 评测</span><span lang="zh-Hant">中文拼字檢查——SIGHAN 2015 評測</span></h3>
+            <p><span lang="en">At SIGHAN-8, ACL–IJCNLP 2015. The SIGHAN-15 spelling check set remains a widely
+               used benchmark for Chinese spelling correction.</span><span lang="zh-Hans">举办于 SIGHAN-8（ACL–IJCNLP 2015）。SIGHAN-15 拼写检查数据集至今仍是中文拼写纠错广泛使用的基准。</span><span lang="zh-Hant">舉辦於 SIGHAN-8（ACL–IJCNLP 2015）。SIGHAN-15 拼字檢查資料集至今仍是中文拼字糾錯廣泛使用的基準。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://aclanthology.org/volumes/W15-31/">Proceedings</a>
+              <a class="ext" href="https://aclanthology.org/volumes/W15-31/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -107,11 +114,11 @@
         <li>
           <span class="ed-year">2013</span>
           <div class="ed-body">
-            <h3>Chinese Spelling Check bakeoff</h3>
-            <p>At SIGHAN-7, IJCNLP 2013, Nagoya.</p>
+            <h3><span lang="en">Chinese Spelling Check bakeoff</span><span lang="zh-Hans">中文拼写检查评测</span><span lang="zh-Hant">中文拼字檢查評測</span></h3>
+            <p><span lang="en">At SIGHAN-7, IJCNLP 2013, Nagoya.</span><span lang="zh-Hans">举办于 SIGHAN-7（IJCNLP 2013，日本名古屋）。</span><span lang="zh-Hant">舉辦於 SIGHAN-7（IJCNLP 2013，日本名古屋）。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://sites.google.com/site/aclsighan7/">Workshop site</a>
-              <a class="ext" href="https://aclanthology.org/volumes/W13-44/">Proceedings</a>
+              <a class="ext" href="https://sites.google.com/site/aclsighan7/"><span lang="en">Workshop site</span><span lang="zh-Hans">研讨会网站</span><span lang="zh-Hant">研討會網站</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/W13-44/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -119,12 +126,12 @@
         <li>
           <span class="ed-year">2012</span>
           <div class="ed-body">
-            <h3>CLP 2012 bakeoffs</h3>
-            <p>Micro-blog word segmentation, Chinese personal name disambiguation, and parsing.
-               At the Second CIPS–SIGHAN Joint Conference, Tianjin.</p>
+            <h3><span lang="en">CLP 2012 bakeoffs</span><span lang="zh-Hans">CLP 2012 评测</span><span lang="zh-Hant">CLP 2012 評測</span></h3>
+            <p><span lang="en">Micro-blog word segmentation, Chinese personal name disambiguation, and parsing.
+               At the Second CIPS–SIGHAN Joint Conference, Tianjin.</span><span lang="zh-Hans">微博分词、中文人名消歧与句法分析。举办于第二届 CIPS–SIGHAN 联合会议（天津）。</span><span lang="zh-Hant">微博斷詞、中文人名消歧與句法分析。舉辦於第二屆 CIPS–SIGHAN 聯合會議（天津）。</span></p>
             <p class="links-inline">
-              <a class="ext" href="http://www.cipsc.org.cn/clp2012/">Conference site</a>
-              <a class="ext" href="https://aclanthology.org/volumes/W12-63/">Proceedings</a>
+              <a class="ext" href="http://www.cipsc.org.cn/clp2012/"><span lang="en">Conference site</span><span lang="zh-Hans">会议网站</span><span lang="zh-Hant">會議網站</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/W12-63/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -132,10 +139,10 @@
         <li>
           <span class="ed-year">2010</span>
           <div class="ed-body">
-            <h3>CLP 2010 bakeoffs</h3>
-            <p>At the CIPS–SIGHAN Joint Conference, Beijing, held with COLING 2010.</p>
+            <h3><span lang="en">CLP 2010 bakeoffs</span><span lang="zh-Hans">CLP 2010 评测</span><span lang="zh-Hant">CLP 2010 評測</span></h3>
+            <p><span lang="en">At the CIPS–SIGHAN Joint Conference, Beijing, held with COLING 2010.</span><span lang="zh-Hans">举办于与 COLING 2010 同期召开的 CIPS–SIGHAN 联合会议（北京）。</span><span lang="zh-Hant">舉辦於與 COLING 2010 同期召開的 CIPS–SIGHAN 聯合會議（北京）。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://aclanthology.org/volumes/W10-41/">Proceedings</a>
+              <a class="ext" href="https://aclanthology.org/volumes/W10-41/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -143,12 +150,12 @@
         <li>
           <span class="ed-year">2007<br>2008</span>
           <div class="ed-body">
-            <h3>Fourth SIGHAN Bakeoff</h3>
-            <p>Word segmentation, named-entity recognition, and part-of-speech tagging. Run in
+            <h3><span lang="en">Fourth SIGHAN Bakeoff</span><span lang="zh-Hans">第四届 SIGHAN 评测（Bakeoff）</span><span lang="zh-Hant">第四屆 SIGHAN 評測（Bakeoff）</span></h3>
+            <p><span lang="en">Word segmentation, named-entity recognition, and part-of-speech tagging. Run in
                2007; results reported at SIGHAN-6, IJCNLP 2008, Hyderabad. The bakeoff's own
-               website is no longer online.</p>
+               website is no longer online.</span><span lang="zh-Hans">分词、命名实体识别与词性标注。评测于2007年进行，结果在 SIGHAN-6（IJCNLP 2008，印度海得拉巴）上发布。该评测的网站已无法访问。</span><span lang="zh-Hant">斷詞、命名實體辨識與詞性標註。評測於2007年進行，結果在 SIGHAN-6（IJCNLP 2008，印度海德拉巴）上發布。該評測的網站已無法造訪。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://aclanthology.org/volumes/I08-4/">Proceedings</a>
+              <a class="ext" href="https://aclanthology.org/volumes/I08-4/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -156,11 +163,11 @@
         <li>
           <span class="ed-year">2006</span>
           <div class="ed-body">
-            <h3>Third SIGHAN Bakeoff — word segmentation and named-entity recognition</h3>
-            <p>Results reported at SIGHAN-5, COLING–ACL 2006, Sydney.</p>
+            <h3><span lang="en">Third SIGHAN Bakeoff — word segmentation and named-entity recognition</span><span lang="zh-Hans">第三届 SIGHAN 评测（Bakeoff）——分词与命名实体识别</span><span lang="zh-Hant">第三屆 SIGHAN 評測（Bakeoff）——斷詞與命名實體辨識</span></h3>
+            <p><span lang="en">Results reported at SIGHAN-5, COLING–ACL 2006, Sydney.</span><span lang="zh-Hans">结果在 SIGHAN-5（COLING–ACL 2006，澳大利亚悉尼）上发布。</span><span lang="zh-Hant">結果在 SIGHAN-5（COLING–ACL 2006，澳洲雪梨）上發布。</span></p>
             <p class="links-inline">
-              <a class="ext" href="http://sighan.cs.uchicago.edu/bakeoff2006/">Bakeoff site &amp; data</a>
-              <a class="ext" href="https://aclanthology.org/volumes/W06-01/">Proceedings</a>
+              <a class="ext" href="http://sighan.cs.uchicago.edu/bakeoff2006/"><span lang="en">Bakeoff site &amp; data</span><span lang="zh-Hans">评测网站与数据</span><span lang="zh-Hant">評測網站與資料</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/W06-01/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -168,12 +175,12 @@
         <li>
           <span class="ed-year">2005</span>
           <div class="ed-body">
-            <h3>Second International Chinese Word Segmentation Bakeoff</h3>
-            <p>Results reported at SIGHAN-4, IJCNLP 2005, Jeju Island. Data and results are
-               released for non-commercial use.</p>
+            <h3><span lang="en">Second International Chinese Word Segmentation Bakeoff</span><span lang="zh-Hans">第二届国际中文分词评测</span><span lang="zh-Hant">第二屆國際中文斷詞評測</span></h3>
+            <p><span lang="en">Results reported at SIGHAN-4, IJCNLP 2005, Jeju Island. Data and results are
+               released for non-commercial use.</span><span lang="zh-Hans">结果在 SIGHAN-4（IJCNLP 2005，韩国济州岛）上发布。数据与结果供非商业用途使用。</span><span lang="zh-Hant">結果在 SIGHAN-4（IJCNLP 2005，韓國濟州島）上發布。資料與結果供非商業用途使用。</span></p>
             <p class="links-inline">
-              <a class="ext" href="http://sighan.cs.uchicago.edu/bakeoff2005/">Bakeoff site &amp; data</a>
-              <a class="ext" href="https://aclanthology.org/volumes/I05-3/">Proceedings</a>
+              <a class="ext" href="http://sighan.cs.uchicago.edu/bakeoff2005/"><span lang="en">Bakeoff site &amp; data</span><span lang="zh-Hans">评测网站与数据</span><span lang="zh-Hant">評測網站與資料</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/I05-3/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -181,11 +188,11 @@
         <li>
           <span class="ed-year">2003</span>
           <div class="ed-body">
-            <h3>First International Chinese Word Segmentation Bakeoff</h3>
-            <p>The first SIGHAN evaluation. Results reported at SIGHAN-2, ACL 2003, Sapporo.</p>
+            <h3><span lang="en">First International Chinese Word Segmentation Bakeoff</span><span lang="zh-Hans">首届国际中文分词评测</span><span lang="zh-Hant">首屆國際中文斷詞評測</span></h3>
+            <p><span lang="en">The first SIGHAN evaluation. Results reported at SIGHAN-2, ACL 2003, Sapporo.</span><span lang="zh-Hans">SIGHAN 的首次评测。结果在 SIGHAN-2（ACL 2003，日本札幌）上发布。</span><span lang="zh-Hant">SIGHAN 的首次評測。結果在 SIGHAN-2（ACL 2003，日本札幌）上發布。</span></p>
             <p class="links-inline">
-              <a class="ext" href="http://sighan.cs.uchicago.edu/bakeoff2003/">Bakeoff site &amp; data</a>
-              <a class="ext" href="https://aclanthology.org/volumes/W03-17/">Proceedings</a>
+              <a class="ext" href="http://sighan.cs.uchicago.edu/bakeoff2003/"><span lang="en">Bakeoff site &amp; data</span><span lang="zh-Hans">评测网站与数据</span><span lang="zh-Hant">評測網站與資料</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/W03-17/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
@@ -193,11 +200,11 @@
       </ul>
 
       <div class="callout callout--note">
-        <span class="callout__title">Using bakeoff data</span>
+        <span class="callout__title"><span lang="en">Using bakeoff data</span><span lang="zh-Hans">使用评测数据</span><span lang="zh-Hant">使用評測資料</span></span>
         <p>
-          The word-segmentation bakeoff releases hosted on the legacy SIGHAN site are made
+          <span lang="en">The word-segmentation bakeoff releases hosted on the legacy SIGHAN site are made
           available for non-commercial use. Check the licence and README shipped with each
-          release before redistributing, and cite the corresponding overview paper.
+          release before redistributing, and cite the corresponding overview paper.</span><span lang="zh-Hans">SIGHAN 旧版网站上发布的分词评测数据供非商业用途使用。再次分发前，请查阅各版本随附的许可协议和 README 文件，并引用相应的综述论文。</span><span lang="zh-Hant">SIGHAN 舊版網站上發布的斷詞評測資料供非商業用途使用。再次分發前，請查閱各版本隨附的授權條款和 README 檔案，並引用相應的綜述論文。</span>
         </p>
       </div>
 
@@ -212,43 +219,43 @@
       <div>
         <h4>SIGHAN</h4>
         <ul>
-          <li><a href="about.html">About &amp; officers</a></li>
-          <li><a href="workshops.html">Workshop archive</a></li>
-          <li><a href="shared-tasks.html">Shared tasks &amp; bakeoffs</a></li>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm">Constitution</a></li>
+          <li><a href="about.html"><span lang="en">About &amp; officers</span><span lang="zh-Hans">关于与委员</span><span lang="zh-Hant">關於與委員</span></a></li>
+          <li><a href="workshops.html"><span lang="en">Workshop archive</span><span lang="zh-Hans">历届研讨会存档</span><span lang="zh-Hant">歷屆研討會存檔</span></a></li>
+          <li><a href="shared-tasks.html"><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm"><span lang="en">Constitution</span><span lang="zh-Hans">章程</span><span lang="zh-Hant">章程</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Current workshop</h4>
+        <h4><span lang="en">Current workshop</span><span lang="zh-Hans">本届研讨会</span><span lang="zh-Hant">本屆研討會</span></h4>
         <ul>
           <li><a href="dclp/index.html">SIGHAN-DCLP 2027</a></li>
-          <li><a href="dclp/cfp.html">Call for papers</a></li>
-          <li><a href="dclp/shared-task.html">Shared task</a></li>
-          <li><a href="dclp/organizers.html">Organizers</a></li>
+          <li><a href="dclp/cfp.html"><span lang="en">Call for papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a></li>
+          <li><a href="dclp/shared-task.html"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a></li>
+          <li><a href="dclp/organizers.html"><span lang="en">Organizers</span><span lang="zh-Hans">组织者</span><span lang="zh-Hant">組織者</span></a></li>
           <li><a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></li>
         </ul>
       </div>
       <div>
-        <h4>Archives</h4>
+        <h4><span lang="en">Archives</span><span lang="zh-Hans">存档</span><span lang="zh-Hant">存檔</span></h4>
         <ul>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/">Legacy SIGHAN site</a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/"><span lang="en">Legacy SIGHAN site</span><span lang="zh-Hans">SIGHAN 旧版网站</span><span lang="zh-Hant">SIGHAN 舊版網站</span></a></li>
           <li><a class="ext" href="https://aclanthology.org/sigs/sighan/">ACL Anthology — SIGHAN</a></li>
-          <li><a class="ext" href="https://aclanthology.org/venues/sighan/">Anthology venue page</a></li>
-          <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce list</a></li>
+          <li><a class="ext" href="https://aclanthology.org/venues/sighan/"><span lang="en">Anthology venue page</span><span lang="zh-Hans">Anthology 会议页面</span><span lang="zh-Hant">Anthology 會議頁面</span></a></li>
+          <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce"><span lang="en">sighan-announce list</span><span lang="zh-Hans">sighan-announce 邮件列表</span><span lang="zh-Hant">sighan-announce 郵件清單</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Association</h4>
+        <h4><span lang="en">Association</span><span lang="zh-Hans">学会</span><span lang="zh-Hant">學會</span></h4>
         <ul>
           <li><a class="ext" href="https://www.aclweb.org/">ACL</a></li>
-          <li><a class="ext" href="https://www.aclweb.org/portal/">ACL Member Portal</a></li>
+          <li><a class="ext" href="https://www.aclweb.org/portal/"><span lang="en">ACL Member Portal</span><span lang="zh-Hans">ACL 会员门户</span><span lang="zh-Hant">ACL 會員入口</span></a></li>
           <li><a class="ext" href="https://aclanthology.org/">ACL Anthology</a></li>
         </ul>
       </div>
     </div>
     <div class="colophon">
-      <p>SIGHAN — Special Interest Group on Chinese Language Processing, a Special Interest Group
-         of the Association for Computational Linguistics.</p>
+      <p><span lang="en">SIGHAN — Special Interest Group on Chinese Language Processing, a Special Interest Group
+         of the Association for Computational Linguistics.</span><span lang="zh-Hans">SIGHAN——国际计算语言学协会（ACL）下属的中文语言处理专业委员会。</span><span lang="zh-Hant">SIGHAN——國際計算語言學協會（ACL）下屬的中文語言處理專業委員會。</span></p>
     </div>
   </div>
 </footer>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-site="sighan">
+<html lang="en" data-site="sighan" data-title-zh-hans="关于 SIGHAN——宗旨、委员与章程" data-title-zh-hant="關於 SIGHAN——宗旨、委員與章程">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,14 +8,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
+<script src="assets/js/lang.js?v=3"></script>
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main"><span lang="en">Skip to content</span><span lang="zh-Hans">跳到正文</span><span lang="zh-Hant">跳到正文</span></a>
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -25,15 +26,20 @@
         <img class="brand__logo" src="assets/img/sighan-logo.png"
              width="146" height="93" alt="SIGHAN">
       </picture>
-      <span class="brand__sub">ACL Special Interest Group</span>
+      <span class="brand__sub"><span lang="en">ACL Special Interest Group</span><span lang="zh-Hans">ACL 中文语言处理专业委员会</span><span lang="zh-Hant">ACL 中文語言處理專業委員會</span></span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="index.html">Home</a>
-      <a href="about.html" aria-current="page">About</a>
-      <a href="workshops.html">Workshops</a>
-      <a href="shared-tasks.html">Shared Tasks</a>
+      <a href="index.html"><span lang="en">Home</span><span lang="zh-Hans">首页</span><span lang="zh-Hant">首頁</span></a>
+      <a href="about.html" aria-current="page"><span lang="en">About</span><span lang="zh-Hans">关于</span><span lang="zh-Hant">關於</span></a>
+      <a href="workshops.html"><span lang="en">Workshops</span><span lang="zh-Hans">历届研讨会</span><span lang="zh-Hant">歷屆研討會</span></a>
+      <a href="shared-tasks.html"><span lang="en">Shared Tasks</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a>
       <a class="nav__cta" href="dclp/index.html">SIGHAN-DCLP&nbsp;2027</a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Language / 语言 / 語言">
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="true" title="English" aria-label="English">EN</button>
+      <button type="button" data-set-lang="zh-Hans" lang="zh-Hans" aria-pressed="false" title="简体中文" aria-label="简体中文">简</button>
+      <button type="button" data-set-lang="zh-Hant" lang="zh-Hant" aria-pressed="false" title="繁體中文" aria-label="繁體中文">繁</button>
+    </div>
   </div>
 </header>
 
@@ -41,13 +47,13 @@
 
   <section class="hero hero--tight">
     <div class="wrap">
-      <p class="hero__eyebrow">About</p>
-      <h1>About SIGHAN</h1>
+      <p class="hero__eyebrow"><span lang="en">About</span><span lang="zh-Hans">关于</span><span lang="zh-Hant">關於</span></p>
+      <h1><span lang="en">About SIGHAN</span><span lang="zh-Hans">关于 SIGHAN</span><span lang="zh-Hant">關於 SIGHAN</span></h1>
       <p class="hero__lede">
-        SIGHAN is a Special Interest Group of the Association for Computational Linguistics.
+        <span lang="en">SIGHAN is a Special Interest Group of the Association for Computational Linguistics.
         It provides an umbrella for researchers in industry and academia working on all aspects
         of Chinese language processing. The constitution was drafted in January 2001 and last
-        updated on 25 July 2003, at the business meeting of the 2nd SIGHAN Workshop.
+        updated on 25 July 2003, at the business meeting of the 2nd SIGHAN Workshop.</span><span lang="zh-Hans">SIGHAN 是国际计算语言学协会（ACL）下属的专业委员会，为产业界和学术界从事中文语言处理各方面研究的学者提供了共同的交流平台。SIGHAN 章程于2001年1月起草，最近一次修订于2003年7月25日在第二届 SIGHAN 研讨会的工作会议上完成。</span><span lang="zh-Hant">SIGHAN 是國際計算語言學協會（ACL）下屬的專業委員會，為產業界和學術界從事中文語言處理各方面研究的學者提供了共同的交流平臺。SIGHAN 章程於2001年1月起草，最近一次修訂於2003年7月25日在第二屆 SIGHAN 研討會的工作會議上完成。</span>
       </p>
     </div>
   </section>
@@ -55,113 +61,115 @@
   <section class="section">
     <div class="wrap-narrow prose">
 
-      <h2 id="purpose">Statement of purpose</h2>
-      <p>Under its constitution, the purpose of SIGHAN is:</p>
+      <h2 id="purpose"><span lang="en">Statement of purpose</span><span lang="zh-Hans">宗旨</span><span lang="zh-Hant">宗旨</span></h2>
+      <p><span lang="en">Under its constitution, the purpose of SIGHAN is:</span><span lang="zh-Hans">根据章程，SIGHAN 的宗旨是：</span><span lang="zh-Hant">根據章程，SIGHAN 的宗旨是：</span></p>
       <ul>
-        <li>To promote interest in all aspects of Chinese Language Processing (CLP) — including
+        <li><span lang="en">To promote interest in all aspects of Chinese Language Processing (CLP) — including
             but not limited to morphological analysis and segmentation, parsing, lexicons,
             semantic and pragmatic analysis, machine translation, and information retrieval and
-            extraction.</li>
-        <li>To promote coordination between organizations in academia and industry throughout
-            the world performing research in CLP.</li>
-        <li>To provide members of the ACL with a special interest in CLP a means of exchanging
-            news of recent research developments and other matters of interest.</li>
-        <li>To sponsor meetings and workshops on CLP that appear to be timely and worthwhile.</li>
+            extraction.</span><span lang="zh-Hans">促进对中文语言处理（CLP）各个方面的研究兴趣，包括但不限于形态分析与分词、句法分析、词典、语义与语用分析、机器翻译以及信息检索与信息抽取。</span><span lang="zh-Hant">促進對中文語言處理（CLP）各個方面的研究興趣，包括但不限於形態分析與斷詞、句法分析、詞典、語意與語用分析、機器翻譯以及資訊檢索與資訊擷取。</span></li>
+        <li><span lang="en">To promote coordination between organizations in academia and industry throughout
+            the world performing research in CLP.</span><span lang="zh-Hans">促进世界各地从事 CLP 研究的学术界与产业界机构之间的协调。</span><span lang="zh-Hant">促進世界各地從事 CLP 研究的學術界與產業界機構之間的協調。</span></li>
+        <li><span lang="en">To provide members of the ACL with a special interest in CLP a means of exchanging
+            news of recent research developments and other matters of interest.</span><span lang="zh-Hans">为对 CLP 有特别兴趣的 ACL 会员提供交流最新研究进展及其他相关事宜的途径。</span><span lang="zh-Hant">為對 CLP 有特別興趣的 ACL 會員提供交流最新研究進展及其他相關事宜的途徑。</span></li>
+        <li><span lang="en">To sponsor meetings and workshops on CLP that appear to be timely and worthwhile.</span><span lang="zh-Hans">主办适时且有价值的 CLP 学术会议与研讨会。</span><span lang="zh-Hant">主辦適時且有價值的 CLP 學術會議與研討會。</span></li>
       </ul>
-      <p>SIGHAN operates within the framework of the ACL's general guidelines for Special Interest Groups.</p>
+      <p><span lang="en">SIGHAN operates within the framework of the ACL's general guidelines for Special Interest Groups.</span><span lang="zh-Hans">SIGHAN 在 ACL 关于专业委员会的总体指导原则框架内运作。</span><span lang="zh-Hant">SIGHAN 在 ACL 關於專業委員會的總體指導原則框架內運作。</span></p>
 
-      <h2 id="membership">Membership</h2>
+      <h2 id="membership"><span lang="en">Membership</span><span lang="zh-Hans">会员</span><span lang="zh-Hant">會員</span></h2>
       <p>
-        Membership is open to anyone who professes an interest in Chinese language processing.
+        <span lang="en">Membership is open to anyone who professes an interest in Chinese language processing.
         The official language of SIGHAN is English. The SIG does not levy membership dues.
         Announcements are distributed through the low-volume
         <a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce</a>
-        mailing list.
+        mailing list.</span><span lang="zh-Hans">凡对中文语言处理感兴趣者均可成为会员。SIGHAN 的官方语言为英语。本委员会不收取会费。相关通知通过低频的 <a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce</a> 邮件列表发布。</span><span lang="zh-Hant">凡對中文語言處理感興趣者均可成為會員。SIGHAN 的官方語言為英語。本委員會不收取會費。相關通知透過低頻的 <a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce</a> 郵件清單發布。</span>
       </p>
 
-      <h2 id="officers">Officers</h2>
+      <h2 id="officers"><span lang="en">Officers</span><span lang="zh-Hans">委员</span><span lang="zh-Hant">委員</span></h2>
       <p>
-        Current officers, as of September 2026. All officers serve two-year terms and are elected
-        by a vote of the membership.
+        <span lang="en">Current officers, as of September 2026. All officers serve two-year terms and are elected
+        by a vote of the membership.</span><span lang="zh-Hans">以下为截至2026年9月的现任委员。所有委员任期两年，由全体会员投票选举产生。</span><span lang="zh-Hant">以下為截至2026年9月的現任委員。所有委員任期兩年，由全體會員投票選舉產生。</span>
       </p>
 
-      <h3>Elected officers</h3>
+      <h3><span lang="en">Elected officers</span><span lang="zh-Hans">选任委员</span><span lang="zh-Hant">選任委員</span></h3>
       <div class="table-scroll">
         <table>
           <thead>
-            <tr><th>Role</th><th>Name</th><th>Affiliation</th><th>Contact</th></tr>
+            <tr><th><span lang="en">Role</span><span lang="zh-Hans">职务</span><span lang="zh-Hant">職務</span></th><th><span lang="en">Name</span><span lang="zh-Hans">姓名</span><span lang="zh-Hant">姓名</span></th><th><span lang="en">Affiliation</span><span lang="zh-Hans">单位</span><span lang="zh-Hant">單位</span></th><th><span lang="en">Contact</span><span lang="zh-Hans">联系方式</span><span lang="zh-Hant">聯絡方式</span></th></tr>
           </thead>
           <tbody>
             <tr>
-              <td>Chair</td><td>Nianwen Xue</td><td>Brandeis University</td>
+              <td><span lang="en">Chair</span><span lang="zh-Hans">主席</span><span lang="zh-Hant">主席</span></td><td>Nianwen Xue</td><td>Brandeis University</td>
               <td><code>xuen at brandeis dot edu</code></td>
             </tr>
             <tr>
-              <td>Vice-Chair / Chair-elect</td><td>Vincent Ng</td><td>University of Texas at Dallas</td>
+              <td><span lang="en">Vice-Chair / Chair-elect</span><span lang="zh-Hans">副主席兼候任主席</span><span lang="zh-Hant">副主席兼候任主席</span></td><td>Vincent Ng</td><td>University of Texas at Dallas</td>
               <td><code>vince at hlt dot utdallas dot edu</code></td>
             </tr>
             <tr>
-              <td>Secretary / Web Master</td><td>Gina-Anne Levow</td><td>University of Washington</td>
+              <td><span lang="en">Secretary / Web Master</span><span lang="zh-Hans">秘书兼网站管理员</span><span lang="zh-Hant">秘書兼網站管理員</span></td><td>Gina-Anne Levow</td><td>University of Washington</td>
               <td><code>levow at uw dot edu</code></td>
             </tr>
             <tr>
-              <td>Treasurer</td><td>Junhui Li</td><td>Soochow University</td>
+              <td><span lang="en">Treasurer</span><span lang="zh-Hans">财务</span><span lang="zh-Hant">財務</span></td><td>Junhui Li</td><td>Soochow University</td>
               <td></td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h3>Information officers</h3>
+      <h3><span lang="en">Information officers</span><span lang="zh-Hans">信息委员</span><span lang="zh-Hant">資訊委員</span></h3>
       <div class="table-scroll">
         <table>
           <thead>
-            <tr><th>Region</th><th>Name</th><th>Affiliation</th></tr>
+            <tr><th><span lang="en">Region</span><span lang="zh-Hans">地区</span><span lang="zh-Hant">地區</span></th><th><span lang="en">Name</span><span lang="zh-Hans">姓名</span><span lang="zh-Hant">姓名</span></th><th><span lang="en">Affiliation</span><span lang="zh-Hans">单位</span><span lang="zh-Hant">單位</span></th></tr>
           </thead>
           <tbody>
-            <tr><td>China</td><td>Jiajun Zhang</td><td>Chinese Academy of Sciences</td></tr>
-            <tr><td>China</td><td>Ruifeng Xu</td><td>Harbin Institute of Technology</td></tr>
-            <tr><td>Hong Kong SAR</td><td>Chun Yu Kit</td><td>City University of Hong Kong</td></tr>
-            <tr><td>Singapore</td><td>Wei Lu</td><td>Singapore University of Technology and Design</td></tr>
-            <tr><td>Taiwan</td><td>Lung-Hao Lee</td><td>National Central University</td></tr>
-            <tr><td>Taiwan</td><td>Kuan-Yu (Menphis) Chen</td><td>National Taiwan University of Science and Technology</td></tr>
-            <tr><td>United States</td><td>Fei Liu</td><td>Emory University</td></tr>
+            <tr><td><span lang="en">China</span><span lang="zh-Hans">中国大陆</span><span lang="zh-Hant">中國大陸</span></td><td>Jiajun Zhang</td><td>Chinese Academy of Sciences</td></tr>
+            <tr><td><span lang="en">China</span><span lang="zh-Hans">中国大陆</span><span lang="zh-Hant">中國大陸</span></td><td>Ruifeng Xu</td><td>Harbin Institute of Technology</td></tr>
+            <tr><td><span lang="en">Hong Kong SAR</span><span lang="zh-Hans">香港特别行政区</span><span lang="zh-Hant">香港特別行政區</span></td><td>Chun Yu Kit</td><td>City University of Hong Kong</td></tr>
+            <tr><td><span lang="en">Singapore</span><span lang="zh-Hans">新加坡</span><span lang="zh-Hant">新加坡</span></td><td>Wei Lu</td><td>Singapore University of Technology and Design</td></tr>
+            <tr><td><span lang="en">Taiwan</span><span lang="zh-Hans">台湾</span><span lang="zh-Hant">臺灣</span></td><td>Lung-Hao Lee</td><td>National Central University</td></tr>
+            <tr><td><span lang="en">Taiwan</span><span lang="zh-Hans">台湾</span><span lang="zh-Hant">臺灣</span></td><td>Kuan-Yu (Menphis) Chen</td><td>National Taiwan University of Science and Technology</td></tr>
+            <tr><td><span lang="en">United States</span><span lang="zh-Hans">美国</span><span lang="zh-Hant">美國</span></td><td>Fei Liu</td><td>Emory University</td></tr>
           </tbody>
         </table>
       </div>
 
       <p>
-        The constitution provides for a Chair, a Vice-Chair, a Treasurer, a Secretary, and up to
+        <span lang="en">The constitution provides for a Chair, a Vice-Chair, a Treasurer, a Secretary, and up to
         seven Information Officers (two from China, two from Taiwan, one from Hong Kong, one from
         Singapore, one from the United States). All officers serve two-year terms and are elected
         by a vote of the membership. The duties attached to each role are set out in full in the
-        constitution.
+        constitution.</span><span lang="zh-Hans">章程规定设主席、副主席、财务、秘书各一名，以及至多七名信息委员（中国大陆两名、台湾两名、香港一名、新加坡一名、美国一名）。所有委员任期两年，由全体会员投票选举产生。各职务的具体职责详见章程。</span><span lang="zh-Hant">章程規定設主席、副主席、財務、秘書各一名，以及至多七名資訊委員（中國大陸兩名、臺灣兩名、香港一名、新加坡一名、美國一名）。所有委員任期兩年，由全體會員投票選舉產生。各職務的具體職責詳見章程。</span>
       </p>
 
       <div class="btn-row">
-        <a class="btn btn--ghost ext" href="http://sighan.cs.uchicago.edu/constitution.htm">Read the SIGHAN constitution</a>
+        <a class="btn btn--ghost ext" href="http://sighan.cs.uchicago.edu/constitution.htm"><span lang="en">Read the SIGHAN constitution</span><span lang="zh-Hans">查阅 SIGHAN 章程</span><span lang="zh-Hant">查閱 SIGHAN 章程</span></a>
       </div>
 
-      <h2 id="history">History</h2>
+      <h2 id="history"><span lang="en">History</span><span lang="zh-Hans">历史沿革</span><span lang="zh-Hant">歷史沿革</span></h2>
       <p>
-        SIGHAN was established in 2001. Its constitution was modeled on that of SIGLEX. The first
+        <span lang="en">SIGHAN was established in 2001. Its constitution was modeled on that of SIGLEX. The first
         numbered SIGHAN workshop was held at COLING 2002 in Taipei; an earlier Chinese Language
         Processing workshop was held in 2000, before the SIG was formed. Ten numbered workshops
         have been held to date, most recently SIGHAN-10 at ACL 2024 in Bangkok, along with three
-        CIPS–SIGHAN joint conferences on Chinese language processing.
+        CIPS–SIGHAN joint conferences on Chinese language processing. The next edition,
+        <a href="dclp/index.html">SIGHAN-DCLP 2027</a>, will be held with ACL 2027 in Kyoto,
+        Japan.</span><span lang="zh-Hans">SIGHAN 成立于2001年，其章程以 SIGLEX 的章程为蓝本。第一届正式编号的 SIGHAN 研讨会在台北与 COLING 2002 同期举行；此前，在该专业委员会成立之前，已于2000年举办过一次中文语言处理研讨会。迄今已举办十届正式编号的研讨会，最近一届为在泰国曼谷与 ACL 2024 同期举行的 SIGHAN-10；此外还举办了三届 CIPS–SIGHAN 中文语言处理联合会议。下一届研讨会 <a href="dclp/index.html">SIGHAN-DCLP 2027</a> 将在日本京都与 ACL 2027 同期举行。</span><span lang="zh-Hant">SIGHAN 成立於2001年，其章程以 SIGLEX 的章程為藍本。第一屆正式編號的 SIGHAN 研討會在臺北與 COLING 2002 同期舉行；此前，在該專業委員會成立之前，已於2000年舉辦過一次中文語言處理研討會。迄今已舉辦十屆正式編號的研討會，最近一屆為在泰國曼谷與 ACL 2024 同期舉行的 SIGHAN-10；此外還舉辦了三屆 CIPS–SIGHAN 中文語言處理聯合會議。下一屆研討會 <a href="dclp/index.html">SIGHAN-DCLP 2027</a> 將在日本京都與 ACL 2027 同期舉行。</span>
       </p>
       <p>
-        SIGHAN is also known for its shared-task evaluations — the <em>bakeoffs</em> — beginning
+        <span lang="en">SIGHAN is also known for its shared-task evaluations — the <em>bakeoffs</em> — beginning
         with the International Chinese Word Segmentation Bakeoff in 2003, and continuing through
-        named-entity recognition, spelling check, sentiment analysis, and semantic parsing tasks.
+        named-entity recognition, spelling check, sentiment analysis, and semantic parsing tasks.</span><span lang="zh-Hans">SIGHAN 还以其评测任务（即 <em>Bakeoff</em>）而著称：自2003年的国际中文分词评测（International Chinese Word Segmentation Bakeoff）起，此后陆续涵盖命名实体识别、拼写检查、情感分析与语义解析等任务。</span><span lang="zh-Hant">SIGHAN 還以其評測任務（即 <em>Bakeoff</em>）而著稱：自2003年的國際中文斷詞評測（International Chinese Word Segmentation Bakeoff）起，此後陸續涵蓋命名實體辨識、拼字檢查、情感分析與語意解析等任務。</span>
       </p>
 
       <div class="btn-row">
-        <a class="btn btn--primary" href="workshops.html">Workshop archive</a>
-        <a class="btn btn--ghost" href="shared-tasks.html">Shared tasks &amp; bakeoffs</a>
+        <a class="btn btn--primary" href="workshops.html"><span lang="en">Workshop archive</span><span lang="zh-Hans">历届研讨会存档</span><span lang="zh-Hant">歷屆研討會存檔</span></a>
+        <a class="btn btn--ghost" href="shared-tasks.html"><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></a>
       </div>
 
-      <h2 id="archive">The historical SIGHAN site</h2>
+      <h2 id="archive"><span lang="en">The historical SIGHAN site</span><span lang="zh-Hans">SIGHAN 旧版网站</span><span lang="zh-Hant">SIGHAN 舊版網站</span></h2>
 
       <figure style="margin:0 0 1.5rem;padding:1.5rem;border:1px solid var(--rule);
                      border-radius:var(--radius);background:var(--paper-raised);text-align:center">
@@ -172,24 +180,24 @@
                style="image-rendering:auto">
         </picture>
         <figcaption style="margin-top:1rem;font-size:.88rem;color:var(--ink-muted)">
-          The SIGHAN logo, in use since the group's founding. It cycles between
-          <em>SIGHAN</em> and <em>SIG漢</em>, passing through the simplified 汉 on the way.
+          <span lang="en">The SIGHAN logo, in use since the group's founding. It cycles between
+          <em>SIGHAN</em> and <em>SIG漢</em>, passing through the simplified 汉 on the way.</span><span lang="zh-Hans">SIGHAN 标志，自委员会成立以来一直沿用。标志在 <em>SIGHAN</em> 与 <em>SIG漢</em> 之间循环变换，其间经过简体的“汉”字。</span><span lang="zh-Hant">SIGHAN 標誌，自委員會成立以來一直沿用。標誌在 <em>SIGHAN</em> 與 <em>SIG漢</em> 之間循環變換，其間經過簡體的「汉」字。</span>
         </figcaption>
       </figure>
 
       <p>
-        The original SIGHAN website, maintained at the University of Chicago, remains online and
+        <span lang="en">The original SIGHAN website, maintained at the University of Chicago, remains online and
         holds the constitution, the bakeoff data releases, and the announcement archive. This site
         links to it throughout rather than duplicating it. Note that its officer roster has not
-        been updated since 2016 and is superseded by the list above.
+        been updated since 2016 and is superseded by the list above.</span><span lang="zh-Hans">SIGHAN 原网站由芝加哥大学维护，目前仍可访问，收录了章程、历届 Bakeoff 评测数据发布及通知存档。本站在各处链接至该网站，而不重复其内容。请注意，该网站上的委员名单自2016年以来未再更新，以上方名单为准。</span><span lang="zh-Hant">SIGHAN 原網站由芝加哥大學維護，目前仍可造訪，收錄了章程、歷屆 Bakeoff 評測資料發布及通知存檔。本站在各處連結至該網站，而不重複其內容。請注意，該網站上的委員名單自2016年以來未再更新，以上方名單為準。</span>
       </p>
       <ul>
-        <li><a class="ext" href="http://sighan.cs.uchicago.edu/">sighan.cs.uchicago.edu</a> — SIGHAN home page (legacy)</li>
-        <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm">Constitution</a></li>
-        <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce mailing list</a></li>
+        <li><a class="ext" href="http://sighan.cs.uchicago.edu/">sighan.cs.uchicago.edu</a><span lang="en"> — SIGHAN home page (legacy)</span><span lang="zh-Hans">——SIGHAN 旧版主页</span><span lang="zh-Hant">——SIGHAN 舊版主頁</span></li>
+        <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm"><span lang="en">Constitution</span><span lang="zh-Hans">章程</span><span lang="zh-Hant">章程</span></a></li>
+        <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce"><span lang="en">sighan-announce mailing list</span><span lang="zh-Hans">sighan-announce 邮件列表</span><span lang="zh-Hant">sighan-announce 郵件清單</span></a></li>
       </ul>
-      <p class="hero__meta"><span>Note: the legacy site is served over plain HTTP and its HTTPS
-         certificate does not validate; some browsers will warn.</span></p>
+      <p class="hero__meta"><span lang="en">Note: the legacy site is served over plain HTTP and its HTTPS
+         certificate does not validate; some browsers will warn.</span><span lang="zh-Hans">注意：旧版网站通过普通 HTTP 提供访问，其 HTTPS 证书无法通过验证，部分浏览器会显示警告。</span><span lang="zh-Hant">注意：舊版網站透過普通 HTTP 提供存取，其 HTTPS 憑證無法通過驗證，部分瀏覽器會顯示警告。</span></p>
 
     </div>
   </section>
@@ -202,43 +210,43 @@
       <div>
         <h4>SIGHAN</h4>
         <ul>
-          <li><a href="about.html">About &amp; officers</a></li>
-          <li><a href="workshops.html">Workshop archive</a></li>
-          <li><a href="shared-tasks.html">Shared tasks &amp; bakeoffs</a></li>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm">Constitution</a></li>
+          <li><a href="about.html"><span lang="en">About &amp; officers</span><span lang="zh-Hans">关于与委员</span><span lang="zh-Hant">關於與委員</span></a></li>
+          <li><a href="workshops.html"><span lang="en">Workshop archive</span><span lang="zh-Hans">历届研讨会存档</span><span lang="zh-Hant">歷屆研討會存檔</span></a></li>
+          <li><a href="shared-tasks.html"><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm"><span lang="en">Constitution</span><span lang="zh-Hans">章程</span><span lang="zh-Hant">章程</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Current workshop</h4>
+        <h4><span lang="en">Current workshop</span><span lang="zh-Hans">本届研讨会</span><span lang="zh-Hant">本屆研討會</span></h4>
         <ul>
           <li><a href="dclp/index.html">SIGHAN-DCLP 2027</a></li>
-          <li><a href="dclp/cfp.html">Call for papers</a></li>
-          <li><a href="dclp/shared-task.html">Shared task</a></li>
-          <li><a href="dclp/organizers.html">Organizers</a></li>
+          <li><a href="dclp/cfp.html"><span lang="en">Call for papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a></li>
+          <li><a href="dclp/shared-task.html"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a></li>
+          <li><a href="dclp/organizers.html"><span lang="en">Organizers</span><span lang="zh-Hans">组织者</span><span lang="zh-Hant">組織者</span></a></li>
           <li><a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></li>
         </ul>
       </div>
       <div>
-        <h4>Archives</h4>
+        <h4><span lang="en">Archives</span><span lang="zh-Hans">存档</span><span lang="zh-Hant">存檔</span></h4>
         <ul>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/">Legacy SIGHAN site</a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/"><span lang="en">Legacy SIGHAN site</span><span lang="zh-Hans">SIGHAN 旧版网站</span><span lang="zh-Hant">SIGHAN 舊版網站</span></a></li>
           <li><a class="ext" href="https://aclanthology.org/sigs/sighan/">ACL Anthology — SIGHAN</a></li>
-          <li><a class="ext" href="https://aclanthology.org/venues/sighan/">Anthology venue page</a></li>
-          <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce list</a></li>
+          <li><a class="ext" href="https://aclanthology.org/venues/sighan/"><span lang="en">Anthology venue page</span><span lang="zh-Hans">Anthology 会议页面</span><span lang="zh-Hant">Anthology 會議頁面</span></a></li>
+          <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce"><span lang="en">sighan-announce list</span><span lang="zh-Hans">sighan-announce 邮件列表</span><span lang="zh-Hant">sighan-announce 郵件清單</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Association</h4>
+        <h4><span lang="en">Association</span><span lang="zh-Hans">学会</span><span lang="zh-Hant">學會</span></h4>
         <ul>
           <li><a class="ext" href="https://www.aclweb.org/">ACL</a></li>
-          <li><a class="ext" href="https://www.aclweb.org/portal/">ACL Member Portal</a></li>
+          <li><a class="ext" href="https://www.aclweb.org/portal/"><span lang="en">ACL Member Portal</span><span lang="zh-Hans">ACL 会员门户</span><span lang="zh-Hant">ACL 會員入口</span></a></li>
           <li><a class="ext" href="https://aclanthology.org/">ACL Anthology</a></li>
         </ul>
       </div>
     </div>
     <div class="colophon">
-      <p>SIGHAN — Special Interest Group on Chinese Language Processing, a Special Interest Group
-         of the Association for Computational Linguistics.</p>
+      <p><span lang="en">SIGHAN — Special Interest Group on Chinese Language Processing, a Special Interest Group
+         of the Association for Computational Linguistics.</span><span lang="zh-Hans">SIGHAN——国际计算语言学协会（ACL）下属的中文语言处理专业委员会。</span><span lang="zh-Hant">SIGHAN——國際計算語言學協會（ACL）下屬的中文語言處理專業委員會。</span></p>
     </div>
   </div>
 </footer>

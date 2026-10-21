@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-site="sighan">
+<html lang="en" data-site="sighan" data-title-zh-hans="SIGHAN——ACL 中文语言处理专业委员会" data-title-zh-hant="SIGHAN——ACL 中文語言處理專業委員會">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,14 +8,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
+<script src="assets/js/lang.js?v=3"></script>
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main"><span lang="en">Skip to content</span><span lang="zh-Hans">跳到正文</span><span lang="zh-Hant">跳到正文</span></a>
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -25,15 +26,20 @@
         <img class="brand__logo" src="assets/img/sighan-logo.png"
              width="146" height="93" alt="SIGHAN">
       </picture>
-      <span class="brand__sub">ACL Special Interest Group</span>
+      <span class="brand__sub"><span lang="en">ACL Special Interest Group</span><span lang="zh-Hans">ACL 中文语言处理专业委员会</span><span lang="zh-Hant">ACL 中文語言處理專業委員會</span></span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="about.html">About</a>
-      <a href="workshops.html">Workshops</a>
-      <a href="shared-tasks.html">Shared Tasks</a>
+      <a href="index.html" aria-current="page"><span lang="en">Home</span><span lang="zh-Hans">首页</span><span lang="zh-Hant">首頁</span></a>
+      <a href="about.html"><span lang="en">About</span><span lang="zh-Hans">关于</span><span lang="zh-Hant">關於</span></a>
+      <a href="workshops.html"><span lang="en">Workshops</span><span lang="zh-Hans">历届研讨会</span><span lang="zh-Hant">歷屆研討會</span></a>
+      <a href="shared-tasks.html"><span lang="en">Shared Tasks</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a>
       <a class="nav__cta" href="dclp/index.html">SIGHAN-DCLP&nbsp;2027</a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Language / 语言 / 語言">
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="true" title="English" aria-label="English">EN</button>
+      <button type="button" data-set-lang="zh-Hans" lang="zh-Hans" aria-pressed="false" title="简体中文" aria-label="简体中文">简</button>
+      <button type="button" data-set-lang="zh-Hant" lang="zh-Hant" aria-pressed="false" title="繁體中文" aria-label="繁體中文">繁</button>
+    </div>
   </div>
 </header>
 
@@ -41,17 +47,17 @@
 
   <section class="hero">
     <div class="wrap">
-      <p class="hero__eyebrow">Association for Computational Linguistics</p>
-      <h1>Special Interest Group on&nbsp;Chinese Language Processing</h1>
+      <p class="hero__eyebrow"><span lang="en">Association for Computational Linguistics</span><span lang="zh-Hans">国际计算语言学协会</span><span lang="zh-Hant">國際計算語言學協會</span></p>
+      <h1><span lang="en">Special Interest Group on&nbsp;Chinese Language Processing</span><span lang="zh-Hans">中文语言处理专业委员会</span><span lang="zh-Hant">中文語言處理專業委員會</span></h1>
       <p class="hero__lede">
-        SIGHAN provides an umbrella for researchers in academia and industry working on every
+        <span lang="en">SIGHAN provides an umbrella for researchers in academia and industry working on every
         aspect of Chinese language processing. Since 2001 the group has sponsored ten numbered
         workshops, several CIPS–SIGHAN joint conferences, and the shared-task evaluations —
-        the SIGHAN bakeoffs — that set long-running benchmarks for the field.
+        the SIGHAN bakeoffs — that set long-running benchmarks for the field.</span><span lang="zh-Hans">SIGHAN 为学术界和产业界从事中文语言处理各方面研究的学者提供了共同的交流平台。自2001年以来，SIGHAN 已主办十届正式编号的研讨会、多届 CIPS–SIGHAN 联合会议，以及为该领域确立长期基准的评测任务，即 SIGHAN Bakeoff。</span><span lang="zh-Hant">SIGHAN 為學術界和產業界從事中文語言處理各方面研究的學者提供了共同的交流平臺。自2001年以來，SIGHAN 已主辦十屆正式編號的研討會、多屆 CIPS–SIGHAN 聯合會議，以及為該領域確立長期基準的評測任務，即 SIGHAN Bakeoff。</span>
       </p>
       <div class="btn-row">
         <a class="btn btn--primary" href="dclp/index.html">SIGHAN-DCLP 2027 &rarr;</a>
-        <a class="btn btn--ghost" href="workshops.html">Browse past editions</a>
+        <a class="btn btn--ghost" href="workshops.html"><span lang="en">Browse past editions</span><span lang="zh-Hans">浏览往届研讨会</span><span lang="zh-Hant">瀏覽往屆研討會</span></a>
       </div>
     </div>
   </section>
@@ -59,26 +65,32 @@
   <section class="section">
     <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">Current</p>
-        <h2>SIGHAN-DCLP&nbsp;2027 — Diversifying Chinese Language Processing</h2>
+        <p class="eyebrow"><span lang="en">Current</span><span lang="zh-Hans">本届</span><span lang="zh-Hant">本屆</span></p>
+        <h2><span lang="en">SIGHAN-DCLP&nbsp;2027 — Diversifying Chinese Language Processing</span><span lang="zh-Hans">SIGHAN-DCLP&nbsp;2027——中文语言处理的多元化</span><span lang="zh-Hant">SIGHAN-DCLP&nbsp;2027——中文語言處理的多元化</span></h2>
         <p>
-          The next edition of the SIGHAN workshop series foregrounds linguistic, domain,
-          temporal, and geographic diversity in Chinese NLP, and features a shared task on
-          Chinese document-level meaning representation parsing.
+          <span lang="en">The next edition of the SIGHAN workshop series, held with ACL 2027 in Kyoto, Japan,
+          in August 2027, foregrounds linguistic, domain, temporal, and geographic diversity in
+          Chinese NLP, and features a shared task on Chinese document-level meaning representation
+          parsing.</span><span lang="zh-Hans">SIGHAN 系列研讨会的下一届会议将于2027年8月在日本京都与 ACL 2027 同期举行。本届会议聚焦中文自然语言处理在语言、领域、时间与地域等方面的多样性，并设有中文篇章级语义表示解析评测任务。</span><span lang="zh-Hant">SIGHAN 系列研討會的下一屆會議將於2027年8月在日本京都與 ACL 2027 同期舉行。本屆會議聚焦中文自然語言處理在語言、領域、時間與地域等方面的多樣性，並設有中文篇章級語意表示解析評測任務。</span>
         </p>
       </div>
 
-      <div class="grid grid--2">
+      <div class="grid grid--3">
         <a class="card" href="dclp/index.html">
-          <h3>Workshop overview</h3>
-          <p>Theme, motivation, format, and the four diversity directions that organise the call.</p>
-          <p class="card__go">Read more &rarr;</p>
+          <h3><span lang="en">Workshop overview</span><span lang="zh-Hans">研讨会概览</span><span lang="zh-Hant">研討會概覽</span></h3>
+          <p><span lang="en">Theme, motivation, format, and the four diversity directions that organise the call.</span><span lang="zh-Hans">会议主题、动机与形式，以及构成本次征稿框架的四个多元化方向。</span><span lang="zh-Hant">會議主題、動機與形式，以及構成本次徵稿框架的四個多元化方向。</span></p>
+          <p class="card__go"><span lang="en">Read more &rarr;</span><span lang="zh-Hans">了解更多 &rarr;</span><span lang="zh-Hant">瞭解更多 &rarr;</span></p>
+        </a>
+        <a class="card" href="dclp/cfp.html">
+          <h3><span lang="en">Call for papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></h3>
+          <p><span lang="en">Topics, paper types, and submission details. Papers due 17 April 2027 (tentative).</span><span lang="zh-Hans">征稿主题、论文类型与投稿说明。论文投稿截止：2027年4月17日（暂定）。</span><span lang="zh-Hant">徵稿主題、論文類型與投稿說明。論文投稿截止：2027年4月17日（暫定）。</span></p>
+          <p class="card__go"><span lang="en">Read the call &rarr;</span><span lang="zh-Hans">查看征稿启事 &rarr;</span><span lang="zh-Hant">檢視徵稿啟事 &rarr;</span></p>
         </a>
         <a class="card" href="dclp/shared-task.html">
-          <h3>Shared task</h3>
-          <p>Chinese document-level meaning representation parsing, over Chinese UMR and
-             document-level Chinese AMR data.</p>
-          <p class="card__go">Task details &rarr;</p>
+          <h3><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></h3>
+          <p><span lang="en">Chinese document-level meaning representation parsing, over Chinese UMR and
+             document-level Chinese AMR data.</span><span lang="zh-Hans">中文篇章级语义表示解析，基于中文 UMR 与篇章级中文 AMR 数据。</span><span lang="zh-Hant">中文篇章級語意表示解析，基於中文 UMR 與篇章級中文 AMR 資料。</span></p>
+          <p class="card__go"><span lang="en">Task details &rarr;</span><span lang="zh-Hans">任务详情 &rarr;</span><span lang="zh-Hant">任務詳情 &rarr;</span></p>
         </a>
       </div>
     </div>
@@ -87,33 +99,33 @@
   <section class="section">
     <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">What SIGHAN does</p>
-        <h2>Purpose</h2>
+        <p class="eyebrow"><span lang="en">What SIGHAN does</span><span lang="zh-Hans">SIGHAN 的工作</span><span lang="zh-Hant">SIGHAN 的工作</span></p>
+        <h2><span lang="en">Purpose</span><span lang="zh-Hans">宗旨</span><span lang="zh-Hant">宗旨</span></h2>
       </div>
       <div class="grid grid--4">
         <div class="card">
           <p class="card__num">01</p>
-          <h3>Promote</h3>
-          <p>Advance interest in all aspects of Chinese language processing.</p>
+          <h3><span lang="en">Promote</span><span lang="zh-Hans">推动</span><span lang="zh-Hant">推動</span></h3>
+          <p><span lang="en">Advance interest in all aspects of Chinese language processing.</span><span lang="zh-Hans">提升对中文语言处理各个方面的研究兴趣。</span><span lang="zh-Hant">提升對中文語言處理各個方面的研究興趣。</span></p>
         </div>
         <div class="card">
           <p class="card__num">02</p>
-          <h3>Coordinate</h3>
-          <p>Connect research groups in academia and industry across the world.</p>
+          <h3><span lang="en">Coordinate</span><span lang="zh-Hans">协调</span><span lang="zh-Hant">協調</span></h3>
+          <p><span lang="en">Connect research groups in academia and industry across the world.</span><span lang="zh-Hans">联结世界各地学术界与产业界的研究团队。</span><span lang="zh-Hant">聯結世界各地學術界與產業界的研究團隊。</span></p>
         </div>
         <div class="card">
           <p class="card__num">03</p>
-          <h3>Exchange</h3>
-          <p>Give members a channel for news of recent research developments.</p>
+          <h3><span lang="en">Exchange</span><span lang="zh-Hans">交流</span><span lang="zh-Hant">交流</span></h3>
+          <p><span lang="en">Give members a channel for news of recent research developments.</span><span lang="zh-Hans">为会员提供交流最新研究进展的渠道。</span><span lang="zh-Hant">為會員提供交流最新研究進展的管道。</span></p>
         </div>
         <div class="card">
           <p class="card__num">04</p>
-          <h3>Convene</h3>
-          <p>Sponsor workshops, joint conferences, and shared-task evaluations.</p>
+          <h3><span lang="en">Convene</span><span lang="zh-Hans">召集</span><span lang="zh-Hant">召集</span></h3>
+          <p><span lang="en">Sponsor workshops, joint conferences, and shared-task evaluations.</span><span lang="zh-Hans">主办研讨会、联合会议与评测任务。</span><span lang="zh-Hant">主辦研討會、聯合會議與評測任務。</span></p>
         </div>
       </div>
       <div class="btn-row">
-        <a class="btn btn--ghost" href="about.html">About SIGHAN, officers &amp; constitution</a>
+        <a class="btn btn--ghost" href="about.html"><span lang="en">About SIGHAN, officers &amp; constitution</span><span lang="zh-Hans">SIGHAN 简介、委员与章程</span><span lang="zh-Hant">SIGHAN 簡介、委員與章程</span></a>
       </div>
     </div>
   </section>
@@ -121,60 +133,60 @@
   <section class="section">
     <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">Archive</p>
-        <h2>Recent editions</h2>
-        <p>Ten numbered SIGHAN workshops have been held since 2002, alongside three CIPS–SIGHAN
-           joint conferences. Every edition's proceedings are permanently archived in the ACL Anthology.</p>
+        <p class="eyebrow"><span lang="en">Archive</span><span lang="zh-Hans">存档</span><span lang="zh-Hant">存檔</span></p>
+        <h2><span lang="en">Recent editions</span><span lang="zh-Hans">近年研讨会</span><span lang="zh-Hant">近年研討會</span></h2>
+        <p><span lang="en">Ten numbered SIGHAN workshops have been held since 2002, alongside three CIPS–SIGHAN
+           joint conferences. Every edition's proceedings are permanently archived in the ACL Anthology.</span><span lang="zh-Hans">自2002年以来，SIGHAN 已举办十届正式编号的研讨会，另举办了三届 CIPS–SIGHAN 联合会议。历届论文集均永久收录于 ACL Anthology。</span><span lang="zh-Hant">自2002年以來，SIGHAN 已舉辦十屆正式編號的研討會，另舉辦了三屆 CIPS–SIGHAN 聯合會議。歷屆論文集均永久收錄於 ACL Anthology。</span></p>
       </div>
 
       <ul class="editions">
         <li>
           <span class="ed-year">2024</span>
           <div class="ed-body">
-            <h3>SIGHAN-10 — Bangkok</h3>
-            <p>At ACL 2024. Shared task on Chinese dimensional aspect-based sentiment analysis (dimABSA).</p>
+            <h3><span lang="en">SIGHAN-10 — Bangkok</span><span lang="zh-Hans">SIGHAN-10——泰国曼谷</span><span lang="zh-Hant">SIGHAN-10——泰國曼谷</span></h3>
+            <p><span lang="en">At ACL 2024. Shared task on Chinese dimensional aspect-based sentiment analysis (dimABSA).</span><span lang="zh-Hans">与 ACL 2024 同期举行。设有中文维度化方面级情感分析（dimABSA）评测任务。</span><span lang="zh-Hant">與 ACL 2024 同期舉行。設有中文維度化方面級情感分析（dimABSA）評測任務。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://sighan2024.github.io/">Workshop site</a>
-              <a class="ext" href="https://aclanthology.org/volumes/2024.sighan-1/">Proceedings</a>
+              <a class="ext" href="https://sighan2024.github.io/"><span lang="en">Workshop site</span><span lang="zh-Hans">研讨会网站</span><span lang="zh-Hant">研討會網站</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/2024.sighan-1/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
         <li>
           <span class="ed-year">2017</span>
           <div class="ed-body">
-            <h3>SIGHAN-9 — Taipei</h3>
-            <p>At IJCNLP 2017, 1 December 2017.</p>
+            <h3><span lang="en">SIGHAN-9 — Taipei</span><span lang="zh-Hans">SIGHAN-9——台北</span><span lang="zh-Hant">SIGHAN-9——臺北</span></h3>
+            <p><span lang="en">At IJCNLP 2017, 1 December 2017.</span><span lang="zh-Hans">2017年12月1日，与 IJCNLP 2017 同期举行。</span><span lang="zh-Hant">2017年12月1日，與 IJCNLP 2017 同期舉行。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://aclanthology.org/volumes/W17-60/">Proceedings</a>
+              <a class="ext" href="https://aclanthology.org/volumes/W17-60/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
         <li>
           <span class="ed-year">2015</span>
           <div class="ed-body">
-            <h3>SIGHAN-8 — Beijing</h3>
-            <p>At ACL–IJCNLP 2015, 30–31 July 2015.</p>
+            <h3><span lang="en">SIGHAN-8 — Beijing</span><span lang="zh-Hans">SIGHAN-8——北京</span><span lang="zh-Hant">SIGHAN-8——北京</span></h3>
+            <p><span lang="en">At ACL–IJCNLP 2015, 30–31 July 2015.</span><span lang="zh-Hans">2015年7月30日至31日，与 ACL–IJCNLP 2015 同期举行。</span><span lang="zh-Hant">2015年7月30日至31日，與 ACL–IJCNLP 2015 同期舉行。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://aclanthology.org/volumes/W15-31/">Proceedings</a>
-              <a class="ext" href="https://www.aclweb.org/portal/content/8th-sighan-workshop-chinese-language-processing-sighan-8">Announcement</a>
+              <a class="ext" href="https://aclanthology.org/volumes/W15-31/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
+              <a class="ext" href="https://www.aclweb.org/portal/content/8th-sighan-workshop-chinese-language-processing-sighan-8"><span lang="en">Announcement</span><span lang="zh-Hans">会议通知</span><span lang="zh-Hant">會議通知</span></a>
             </p>
           </div>
         </li>
         <li>
           <span class="ed-year">2013</span>
           <div class="ed-body">
-            <h3>SIGHAN-7 — Nagoya</h3>
-            <p>At IJCNLP 2013, 14 October 2013. Chinese Spelling Check bakeoff.</p>
+            <h3><span lang="en">SIGHAN-7 — Nagoya</span><span lang="zh-Hans">SIGHAN-7——日本名古屋</span><span lang="zh-Hant">SIGHAN-7——日本名古屋</span></h3>
+            <p><span lang="en">At IJCNLP 2013, 14 October 2013. Chinese Spelling Check bakeoff.</span><span lang="zh-Hans">2013年10月14日，与 IJCNLP 2013 同期举行。设有中文拼写检查评测（SIGHAN Bakeoff）。</span><span lang="zh-Hant">2013年10月14日，與 IJCNLP 2013 同期舉行。設有中文拼字檢查評測（SIGHAN Bakeoff）。</span></p>
             <p class="links-inline">
-              <a class="ext" href="https://sites.google.com/site/aclsighan7/">Workshop site</a>
-              <a class="ext" href="https://aclanthology.org/volumes/W13-44/">Proceedings</a>
+              <a class="ext" href="https://sites.google.com/site/aclsighan7/"><span lang="en">Workshop site</span><span lang="zh-Hans">研讨会网站</span><span lang="zh-Hant">研討會網站</span></a>
+              <a class="ext" href="https://aclanthology.org/volumes/W13-44/"><span lang="en">Proceedings</span><span lang="zh-Hans">论文集</span><span lang="zh-Hant">論文集</span></a>
             </p>
           </div>
         </li>
       </ul>
 
       <div class="btn-row">
-        <a class="btn btn--ghost" href="workshops.html">All editions, 2000–present</a>
+        <a class="btn btn--ghost" href="workshops.html"><span lang="en">All editions, 2000–present</span><span lang="zh-Hans">全部届次（2000年至今）</span><span lang="zh-Hant">全部屆次（2000年至今）</span></a>
       </div>
     </div>
   </section>
@@ -187,45 +199,45 @@
       <div>
         <h4>SIGHAN</h4>
         <ul>
-          <li><a href="about.html">About &amp; officers</a></li>
-          <li><a href="workshops.html">Workshop archive</a></li>
-          <li><a href="shared-tasks.html">Shared tasks &amp; bakeoffs</a></li>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm">Constitution</a></li>
+          <li><a href="about.html"><span lang="en">About &amp; officers</span><span lang="zh-Hans">关于与委员</span><span lang="zh-Hant">關於與委員</span></a></li>
+          <li><a href="workshops.html"><span lang="en">Workshop archive</span><span lang="zh-Hans">历届研讨会存档</span><span lang="zh-Hant">歷屆研討會存檔</span></a></li>
+          <li><a href="shared-tasks.html"><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/constitution.htm"><span lang="en">Constitution</span><span lang="zh-Hans">章程</span><span lang="zh-Hant">章程</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Current workshop</h4>
+        <h4><span lang="en">Current workshop</span><span lang="zh-Hans">本届研讨会</span><span lang="zh-Hant">本屆研討會</span></h4>
         <ul>
           <li><a href="dclp/index.html">SIGHAN-DCLP 2027</a></li>
-          <li><a href="dclp/cfp.html">Call for papers</a></li>
-          <li><a href="dclp/shared-task.html">Shared task</a></li>
-          <li><a href="dclp/organizers.html">Organizers</a></li>
+          <li><a href="dclp/cfp.html"><span lang="en">Call for papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a></li>
+          <li><a href="dclp/shared-task.html"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a></li>
+          <li><a href="dclp/organizers.html"><span lang="en">Organizers</span><span lang="zh-Hans">组织者</span><span lang="zh-Hant">組織者</span></a></li>
           <li><a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></li>
         </ul>
       </div>
       <div>
-        <h4>Archives</h4>
+        <h4><span lang="en">Archives</span><span lang="zh-Hans">存档</span><span lang="zh-Hant">存檔</span></h4>
         <ul>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/">Legacy SIGHAN site</a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/"><span lang="en">Legacy SIGHAN site</span><span lang="zh-Hans">SIGHAN 旧版网站</span><span lang="zh-Hant">SIGHAN 舊版網站</span></a></li>
           <li><a class="ext" href="https://aclanthology.org/sigs/sighan/">ACL Anthology — SIGHAN</a></li>
-          <li><a class="ext" href="https://aclanthology.org/venues/sighan/">Anthology venue page</a></li>
-          <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce">sighan-announce list</a></li>
+          <li><a class="ext" href="https://aclanthology.org/venues/sighan/"><span lang="en">Anthology venue page</span><span lang="zh-Hans">Anthology 会议页面</span><span lang="zh-Hant">Anthology 會議頁面</span></a></li>
+          <li><a class="ext" href="http://mailman.cs.uchicago.edu/listinfo/sighan-announce"><span lang="en">sighan-announce list</span><span lang="zh-Hans">sighan-announce 邮件列表</span><span lang="zh-Hant">sighan-announce 郵件清單</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Association</h4>
+        <h4><span lang="en">Association</span><span lang="zh-Hans">学会</span><span lang="zh-Hant">學會</span></h4>
         <ul>
           <li><a class="ext" href="https://www.aclweb.org/">ACL</a></li>
-          <li><a class="ext" href="https://www.aclweb.org/portal/">ACL Member Portal</a></li>
+          <li><a class="ext" href="https://www.aclweb.org/portal/"><span lang="en">ACL Member Portal</span><span lang="zh-Hans">ACL 会员门户</span><span lang="zh-Hant">ACL 會員入口</span></a></li>
           <li><a class="ext" href="https://aclanthology.org/">ACL Anthology</a></li>
         </ul>
       </div>
     </div>
     <div class="colophon">
-      <p>SIGHAN — Special Interest Group on Chinese Language Processing, a Special Interest Group
-         of the Association for Computational Linguistics.</p>
-      <p>The historical SIGHAN site remains available at
-         <a class="ext" href="http://sighan.cs.uchicago.edu/">sighan.cs.uchicago.edu</a>.</p>
+      <p><span lang="en">SIGHAN — Special Interest Group on Chinese Language Processing, a Special Interest Group
+         of the Association for Computational Linguistics.</span><span lang="zh-Hans">SIGHAN——国际计算语言学协会（ACL）下属的中文语言处理专业委员会。</span><span lang="zh-Hant">SIGHAN——國際計算語言學協會（ACL）下屬的中文語言處理專業委員會。</span></p>
+      <p><span lang="en">The historical SIGHAN site remains available at
+         <a class="ext" href="http://sighan.cs.uchicago.edu/">sighan.cs.uchicago.edu</a>.</span><span lang="zh-Hans">SIGHAN 旧版网站仍可访问：<a class="ext" href="http://sighan.cs.uchicago.edu/">sighan.cs.uchicago.edu</a>。</span><span lang="zh-Hant">SIGHAN 舊版網站仍可造訪：<a class="ext" href="http://sighan.cs.uchicago.edu/">sighan.cs.uchicago.edu</a>。</span></p>
     </div>
   </div>
 </footer>

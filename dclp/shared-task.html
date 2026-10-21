@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-site="dclp">
+<html lang="en" data-site="dclp" data-title-zh-hans="评测任务：中文篇章级语义表示解析 | SIGHAN-DCLP 2027" data-title-zh-hant="評測任務：中文篇章級語意表示解析 | SIGHAN-DCLP 2027">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,14 +8,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css?v=5">
+<script src="../assets/js/lang.js?v=3"></script>
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
 <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main"><span lang="en">Skip to content</span><span lang="zh-Hans">跳到正文</span><span lang="zh-Hant">跳到正文</span></a>
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -27,16 +28,21 @@
       </picture>
       <span class="brand__text">
         <span class="brand__name">SIGHAN-DCLP 2027</span>
-        <span class="brand__sub">Diversifying Chinese Language Processing</span>
+        <span class="brand__sub"><span lang="en">Diversifying Chinese Language Processing</span><span lang="zh-Hans">中文语言处理的多元化</span><span lang="zh-Hant">中文語言處理的多元化</span></span>
       </span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="index.html">Overview</a>
-      <a href="cfp.html">Call for Papers</a>
-      <a href="shared-task.html" aria-current="page">Shared Task</a>
-      <a href="organizers.html">Organizers</a>
+      <a href="index.html"><span lang="en">Overview</span><span lang="zh-Hans">概览</span><span lang="zh-Hant">概覽</span></a>
+      <a href="cfp.html"><span lang="en">Call for Papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a>
+      <a href="shared-task.html" aria-current="page"><span lang="en">Shared Task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a>
+      <a href="organizers.html"><span lang="en">Organizers</span><span lang="zh-Hans">组织者</span><span lang="zh-Hant">組織者</span></a>
       <a class="nav__cta" href="../index.html">SIGHAN&nbsp;&larr;</a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Language / 语言 / 語言">
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="true" title="English" aria-label="English">EN</button>
+      <button type="button" data-set-lang="zh-Hans" lang="zh-Hans" aria-pressed="false" title="简体中文" aria-label="简体中文">简</button>
+      <button type="button" data-set-lang="zh-Hant" lang="zh-Hant" aria-pressed="false" title="繁體中文" aria-label="繁體中文">繁</button>
+    </div>
   </div>
 </header>
 
@@ -44,17 +50,22 @@
 
   <section class="hero hero--tight">
     <div class="wrap">
-      <p class="hero__eyebrow">Shared task</p>
-      <h1>Chinese document-level meaning representation parsing</h1>
+      <p class="hero__eyebrow"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></p>
+      <h1><span lang="en">Chinese document-level meaning representation parsing</span><span lang="zh-Hans">中文篇章级语义表示解析</span><span lang="zh-Hant">中文篇章級語意表示解析</span></h1>
       <p class="hero__lede">
-        Map Chinese documents into explicit, graph-based semantic structures that reach across
+        <span lang="en">Map Chinese documents into explicit, graph-based semantic structures that reach across
         sentence boundaries — evaluated on a Chinese Uniform Meaning Representation (UMR) data
-        set and a document-level Chinese Abstract Meaning Representation (AMR) data set.
+        set and a document-level Chinese Abstract Meaning Representation (AMR) data set.</span>
+        <span lang="zh-Hans">将中文文档解析为跨越句子边界的、显式的图结构语义表示，并在中文统一语义表示（UMR）数据集与篇章级中文抽象语义表示（AMR）数据集上进行评测。</span><span lang="zh-Hant">將中文文件解析為跨越句子邊界的、顯式的圖結構語意表示，並在中文統一語意表示（UMR）資料集與篇章級中文抽象語意表示（AMR）資料集上進行評測。</span>
       </p>
       <div class="hero__meta">
-        <span><strong>Chair</strong> Zhixing Xu</span>
-        <span><strong>Expected</strong> ~10–15 teams</span>
-        <span><strong>Registration</strong> TBA</span>
+        <span><strong><span lang="en">Chair</span><span lang="zh-Hans">评测主席</span><span lang="zh-Hant">評測主席</span></strong> Zhixing Xu</span>
+        <span><strong><span lang="en">Evaluation</span><span lang="zh-Hans">评测时间</span><span lang="zh-Hant">評測時間</span></strong>
+          <span lang="en">January–April 2027</span><span lang="zh-Hans">2027年1月—4月</span><span lang="zh-Hant">2027年1月—4月</span></span>
+        <span><strong><span lang="en">Expected</span><span lang="zh-Hans">预计参赛</span><span lang="zh-Hant">預計參賽</span></strong>
+          <span lang="en">~10–15 teams</span><span lang="zh-Hans">约10–15支队伍</span><span lang="zh-Hant">約10–15支隊伍</span></span>
+        <span><strong><span lang="en">Registration</span><span lang="zh-Hans">报名</span><span lang="zh-Hant">報名</span></strong>
+          <span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span>
       </div>
     </div>
   </section>
@@ -62,82 +73,129 @@
   <section class="section">
     <div class="wrap-narrow prose">
 
-      <h2 id="task">The task</h2>
+      <h2 id="task"><span lang="en">The task</span><span lang="zh-Hans">任务介绍</span><span lang="zh-Hant">任務介紹</span></h2>
       <p>
-        Participants map Chinese documents into explicit semantic structures. Both target
-        frameworks provide graph-based representations of predicates, arguments, entities, and
-        semantic relations, while extending analysis across sentence boundaries:
+        <span lang="en">Systems take a <strong>complete Chinese document</strong> as input and output its
+        structured meaning representation. Beyond sentence-internal semantic roles, the output
+        must capture the core document-level phenomena: coreference across sentences, discourse
+        relations between parts of the text, and temporal relations between events.</span>
+        <span lang="zh-Hans">参赛系统需输入<strong>完整的中文文档</strong>，输出对应的结构化语义表示。除句内语义角色标注外，输出还需覆盖跨句共指消解、篇章语义关系衔接、事件时序推理等篇章级核心语义现象。</span><span lang="zh-Hant">參賽系統需輸入<strong>完整的中文文件</strong>，輸出對應的結構化語意表示。除句內語意角色標註外，輸出還需覆蓋跨句共指消解、篇章語意關係銜接、事件時序推理等篇章級核心語意現象。</span>
+      </p>
+      <p>
+        <span lang="en">Both target frameworks provide graph-based representations of predicates, arguments,
+        entities, and semantic relations, while extending analysis across sentence
+        boundaries:</span>
+        <span lang="zh-Hans">两种目标语义表示框架均以图结构表示谓词、论元、实体及语义关系，并将分析延伸至句子边界之外：</span><span lang="zh-Hant">兩種目標語意表示框架均以圖結構表示謂詞、論元、實體及語意關係，並將分析延伸至句子邊界之外：</span>
       </p>
       <ul>
-        <li><strong>Chinese UMR</strong> represents entity and event coreference, temporal
-            relations, and modal dependencies.</li>
-        <li><strong>Document-level Chinese AMR</strong> provides a complementary representation
-            of semantic connections across a document.</li>
+        <li><span lang="en"><strong>Chinese UMR</strong> represents entity and event coreference, temporal
+            relations, and modal dependencies.</span>
+            <span lang="zh-Hans"><strong>中文 UMR</strong>：表示实体与事件共指、时间关系以及情态依存。</span><span lang="zh-Hant"><strong>中文 UMR</strong>：表示實體與事件共指、時間關係以及情態依存。</span></li>
+        <li><span lang="en"><strong>Document-level Chinese AMR</strong> provides a complementary representation
+            of semantic connections across a document.</span>
+            <span lang="zh-Hans"><strong>篇章级中文 AMR</strong>：从另一角度刻画文档内部的语义关联，与 UMR 互为补充。</span><span lang="zh-Hant"><strong>篇章級中文 AMR</strong>：從另一角度刻畫文件內部的語意關聯，與 UMR 互為補充。</span></li>
       </ul>
       <p>
-        Evaluating on both resources benchmarks LLM-based, neural, and hybrid approaches, and
-        tests generalization across related representation frameworks.
+        <span lang="en">The data are uniformly annotated and drawn from real Chinese documents across multiple
+        domains and genres. Evaluating on both resources benchmarks LLM-based, neural, and hybrid
+        approaches, and tests generalization across related representation frameworks.</span>
+        <span lang="zh-Hans">评测数据经过统一标注，取自多领域、多体裁的真实中文文档。在两类资源上同时评测，既可比较基于大语言模型、神经网络及混合方法的系统，也可检验系统在相关语义表示框架之间的泛化能力。</span><span lang="zh-Hant">評測資料經過統一標註，取自多領域、多體裁的真實中文文件。在兩類資源上同時評測，既可比較基於大型語言模型、神經網路及混合方法的系統，也可檢驗系統在相關語意表示框架之間的泛化能力。</span>
       </p>
 
-      <h2 id="motivation">Why this task</h2>
+      <h2 id="motivation"><span lang="en">Why this task</span><span lang="zh-Hans">设立缘由</span><span lang="zh-Hant">設立緣由</span></h2>
       <p>
-        The task addresses a limitation of current generative systems: although LLMs perform many
+        <span lang="en">The task addresses a limitation of current generative systems: although LLMs perform many
         language-understanding tasks well, their meaning representations remain largely implicit.
         For SIGHAN, it also moves Chinese semantic parsing from isolated sentences toward
         explicit document-level understanding — a step beyond the sentence-level Chinese AMR
-        evaluations of recent years.
+        evaluations of recent years. The aim is to advance Chinese semantic parsing and establish
+        a benchmark the field recognizes.</span>
+        <span lang="zh-Hans">本任务针对当前生成式系统的一项局限：尽管大语言模型在许多语言理解任务上表现出色，其语义表示在很大程度上仍是隐式的。对 SIGHAN 而言，本任务也推动中文语义解析从孤立的句子走向显式的篇章级理解，在近年来句子级中文 AMR 评测的基础上更进一步。本评测旨在推动中文语义解析技术的发展，建立领域公认的基准评测体系。</span><span lang="zh-Hant">本任務針對當前生成式系統的一項侷限：儘管大型語言模型在許多語言理解任務上表現出色，其語意表示在很大程度上仍是隱式的。對 SIGHAN 而言，本任務也推動中文語意解析從孤立的句子走向顯式的篇章級理解，在近年來句子級中文 AMR 評測的基礎上更進一步。本評測旨在推動中文語意解析技術的發展，建立領域公認的基準評測體系。</span>
       </p>
 
-      <h2 id="participation">Participation</h2>
+      <h2 id="participation"><span lang="en">Participation</span><span lang="zh-Hans">参赛与论文发表</span><span lang="zh-Hant">參賽與論文發表</span></h2>
       <p>
-        We expect approximately <strong>10–15 participating teams</strong>, based on
+        <span lang="en">We expect approximately <strong>10–15 participating teams</strong>, based on
         participation in recent Chinese semantic parsing evaluations and in previous SIGHAN
-        shared tasks. Participating teams are invited to submit system description papers, which
-        are reviewed and, if accepted, appear in the workshop proceedings.
+        shared tasks. Detailed task guidelines and the data download will be released separately
+        on this page.</span>
+        <span lang="zh-Hans">根据近年中文语义解析评测及往届 SIGHAN 评测的参与情况，我们预计约有 <strong>10–15 支队伍</strong>参赛。详细的技术指南与数据下载通道将在本页面单独发布。</span><span lang="zh-Hant">根據近年中文語意解析評測及往屆 SIGHAN 評測的參與情況，我們預計約有 <strong>10–15 支隊伍</strong>參賽。詳細的技術指南與資料下載通道將在本頁面單獨發布。</span>
+      </p>
+      <p>
+        <span lang="en">Participating teams are invited to submit <strong>system description papers</strong>
+        of up to 4 pages of content, focusing on the system, results, and analysis. They are
+        reviewed and, if accepted, appear in the workshop proceedings in the ACL Anthology.</span>
+        <span lang="zh-Hans">欢迎参赛队伍提交<strong>系统描述论文</strong>（正文最多4页），重点介绍系统方案、实验结果与技术分析。论文经评审录用后，将正式收入研讨会论文集并收录于 ACL Anthology。</span><span lang="zh-Hant">歡迎參賽隊伍提交<strong>系統描述論文</strong>（正文最多4頁），重點介紹系統方案、實驗結果與技術分析。論文經評審錄用後，將正式收入研討會論文集並收錄於 ACL Anthology。</span>
       </p>
 
-      <h2 id="schedule">Schedule</h2>
+      <h2 id="schedule"><span lang="en">Schedule</span><span lang="zh-Hans">日程安排</span><span lang="zh-Hant">日程安排</span></h2>
+      <p>
+        <span lang="en">The evaluation runs <strong>January–April 2027</strong> (tentative). Detailed dates
+        will be posted here.</span>
+        <span lang="zh-Hans">评测拟于 <strong>2027年1月至4月</strong> 举行（暂定），具体日期将在本页面公布。</span><span lang="zh-Hant">評測擬於 <strong>2027年1月至4月</strong> 舉行（暫定），具體日期將在本頁面公佈。</span>
+      </p>
       <ul class="dates">
-        <li><span class="d-label">Registration opens</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">Training data release</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">Test data release</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">System submission deadline</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">Results released</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">System description papers due</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label"><span lang="en">Registration opens</span><span lang="zh-Hans">开放报名</span><span lang="zh-Hant">開放報名</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
+        <li><span class="d-label"><span lang="en">Training data release</span><span lang="zh-Hans">发布训练数据</span><span lang="zh-Hant">發布訓練資料</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
+        <li><span class="d-label"><span lang="en">Test data release</span><span lang="zh-Hans">发布测试数据</span><span lang="zh-Hant">發布測試資料</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
+        <li><span class="d-label"><span lang="en">System submission deadline</span><span lang="zh-Hans">系统提交截止</span><span lang="zh-Hant">系統提交截止</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
+        <li><span class="d-label"><span lang="en">Results released</span><span lang="zh-Hans">公布评测结果</span><span lang="zh-Hant">公佈評測結果</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
+        <li><span class="d-label"><span lang="en">System description papers due</span><span lang="zh-Hans">系统描述论文提交截止</span><span lang="zh-Hant">系統描述論文提交截止</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
       </ul>
 
-      <h2 id="background">Background and resources</h2>
-      <p>Useful starting points for the two frameworks:</p>
+      <h2 id="background"><span lang="en">Background and resources</span><span lang="zh-Hans">背景与资源</span><span lang="zh-Hant">背景與資源</span></h2>
+      <p><span lang="en">Useful starting points for the two frameworks:</span><span lang="zh-Hans">了解这两种语义表示框架，可参考以下资料：</span><span lang="zh-Hant">瞭解這兩種語意表示框架，可參考以下資料：</span></p>
       <ul>
-        <li>Julia Bonn et al. 2024.
+        <li><span lang="en">Julia Bonn et al. 2024.
             <a class="ext" href="https://aclanthology.org/2024.lrec-main.229/">Building a Broad
             Infrastructure for Uniform Meaning Representations</a>. LREC–COLING 2024 — the first
-            release of the UMR data set.</li>
-        <li>Zhixing Xu, Yixuan Zhang, Bin Li, Junsheng Zhou, and Weiguang Qu. 2023.
+            release of the UMR data set.</span>
+            <span lang="zh-Hans">Julia Bonn et al. 2024.
+            <a class="ext" href="https://aclanthology.org/2024.lrec-main.229/">Building a Broad
+            Infrastructure for Uniform Meaning Representations</a>. LREC–COLING 2024——UMR 数据集的首次发布。</span><span lang="zh-Hant">Julia Bonn et al. 2024.
+            <a class="ext" href="https://aclanthology.org/2024.lrec-main.229/">Building a Broad
+            Infrastructure for Uniform Meaning Representations</a>. LREC–COLING 2024——UMR 資料集的首次發布。</span></li>
+        <li><span lang="en">Zhixing Xu, Yixuan Zhang, Bin Li, Junsheng Zhou, and Weiguang Qu. 2023.
             <a class="ext" href="https://aclanthology.org/2023.ccl-3.7/">Overview of CCL23-Eval
-            Task 2: The Third Chinese Abstract Meaning Representation Parsing Evaluation</a>.</li>
-        <li><a class="ext" href="https://umr4nlp.github.io/web/index.html">Uniform Meaning
-            Representation project</a> — specification, guidelines, and tooling.</li>
-        <li><a class="ext" href="https://github.com/GoThereGit/Chinese-AMR">Chinese AMR corpus</a>
-            — the Chinese AMR resource on GitHub.</li>
+            Task 2: The Third Chinese Abstract Meaning Representation Parsing Evaluation</a>.</span>
+            <span lang="zh-Hans">Zhixing Xu, Yixuan Zhang, Bin Li, Junsheng Zhou, and Weiguang Qu. 2023.
+            <a class="ext" href="https://aclanthology.org/2023.ccl-3.7/">Overview of CCL23-Eval
+            Task 2: The Third Chinese Abstract Meaning Representation Parsing Evaluation</a>——第三届中文抽象语义表示解析评测综述。</span><span lang="zh-Hant">Zhixing Xu, Yixuan Zhang, Bin Li, Junsheng Zhou, and Weiguang Qu. 2023.
+            <a class="ext" href="https://aclanthology.org/2023.ccl-3.7/">Overview of CCL23-Eval
+            Task 2: The Third Chinese Abstract Meaning Representation Parsing Evaluation</a>——第三屆中文抽象語意表示解析評測綜述。</span></li>
+        <li><span lang="en"><a class="ext" href="https://umr4nlp.github.io/web/index.html">Uniform Meaning
+            Representation project</a> — specification, guidelines, and tooling.</span>
+            <span lang="zh-Hans"><a class="ext" href="https://umr4nlp.github.io/web/index.html">统一语义表示（UMR）项目</a>——规范、标注指南与工具。</span><span lang="zh-Hant"><a class="ext" href="https://umr4nlp.github.io/web/index.html">統一語意表示（UMR）計畫</a>——規範、標註指南與工具。</span></li>
+        <li><span lang="en"><a class="ext" href="https://github.com/GoThereGit/Chinese-AMR">Chinese AMR corpus</a>
+            — the Chinese AMR resource on GitHub.</span>
+            <span lang="zh-Hans"><a class="ext" href="https://github.com/GoThereGit/Chinese-AMR">中文 AMR 语料库</a>——GitHub 上的中文 AMR 资源。</span><span lang="zh-Hant"><a class="ext" href="https://github.com/GoThereGit/Chinese-AMR">中文 AMR 語料庫</a>——GitHub 上的中文 AMR 資源。</span></li>
       </ul>
 
-      <h2 id="lineage">Previous SIGHAN shared tasks</h2>
+      <h2 id="lineage"><span lang="en">Previous SIGHAN shared tasks</span><span lang="zh-Hans">往届 SIGHAN 评测</span><span lang="zh-Hant">往屆 SIGHAN 評測</span></h2>
       <p>
-        SIGHAN's shared-task tradition runs back to the International Chinese Word Segmentation
+        <span lang="en">SIGHAN's shared-task tradition runs back to the International Chinese Word Segmentation
         Bakeoff in 2003, through named-entity recognition, spelling check, and most recently
-        dimensional aspect-based sentiment analysis at SIGHAN-10.
+        dimensional aspect-based sentiment analysis at SIGHAN-10.</span>
+        <span lang="zh-Hans">SIGHAN 的评测传统可追溯至2003年的国际中文分词评测（Bakeoff），此后历经命名实体识别、拼写检查等任务，最近一届为 SIGHAN-10 的维度化方面级情感分析评测。</span><span lang="zh-Hant">SIGHAN 的評測傳統可追溯至2003年的國際中文斷詞評測（Bakeoff），此後歷經命名實體辨識、拼字檢查等任務，最近一屆為 SIGHAN-10 的維度化方面級情感分析評測。</span>
       </p>
       <div class="btn-row" style="margin-top:1rem">
-        <a class="btn btn--ghost" href="../shared-tasks.html">All SIGHAN shared tasks &amp; bakeoffs</a>
-        <a class="btn btn--ghost ext" href="https://aclanthology.org/2024.sighan-1.19/">SIGHAN-10 dimABSA overview</a>
+        <a class="btn btn--ghost" href="../shared-tasks.html"><span lang="en">All SIGHAN shared tasks &amp; bakeoffs</span><span lang="zh-Hans">SIGHAN 历届评测任务</span><span lang="zh-Hant">SIGHAN 歷屆評測任務</span></a>
+        <a class="btn btn--ghost ext" href="https://aclanthology.org/2024.sighan-1.19/"><span lang="en">SIGHAN-10 dimABSA overview</span><span lang="zh-Hans">SIGHAN-10 dimABSA 任务综述</span><span lang="zh-Hant">SIGHAN-10 dimABSA 任務綜述</span></a>
       </div>
 
-      <h2 id="contact">Contact</h2>
+      <h2 id="contact"><span lang="en">Contact</span><span lang="zh-Hans">联系方式</span><span lang="zh-Hant">聯絡方式</span></h2>
       <p>
-        The shared task is chaired by <strong>Zhixing Xu</strong>. Questions about the task go to
-        the workshop organizers at <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>. A registration form and the data release will be
-        announced on this page.
+        <span lang="en">The shared task is chaired by <strong>Zhixing Xu</strong>. Questions about the task go to
+        the workshop organizers at <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>.
+        A registration form, the task guidelines, and the data release will be announced on this
+        page.</span>
+        <span lang="zh-Hans">评测任务主席为 <strong>Zhixing Xu</strong>。如对评测任务有任何疑问，请发送邮件至研讨会组织者 <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>。报名表、技术指南与数据发布信息将在本页面公布。</span><span lang="zh-Hant">評測任務主席為 <strong>Zhixing Xu</strong>。如對評測任務有任何疑問，請來信至研討會組織者 <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>。報名表、技術指南與資料發布資訊將在本頁面公佈。</span>
       </p>
 
     </div>
@@ -151,45 +209,46 @@
       <div>
         <h4>SIGHAN-DCLP 2027</h4>
         <ul>
-          <li><a href="index.html">Overview</a></li>
-          <li><a href="cfp.html">Call for papers</a></li>
-          <li><a href="shared-task.html">Shared task</a></li>
-          <li><a href="organizers.html">Organizers &amp; committee</a></li>
+          <li><a href="index.html"><span lang="en">Overview</span><span lang="zh-Hans">概览</span><span lang="zh-Hant">概覽</span></a></li>
+          <li><a href="cfp.html"><span lang="en">Call for papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a></li>
+          <li><a href="shared-task.html"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a></li>
+          <li><a href="organizers.html"><span lang="en">Organizers &amp; committee</span><span lang="zh-Hans">组织者与程序委员会</span><span lang="zh-Hant">組織者與程序委員會</span></a></li>
           <li><a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></li>
         </ul>
       </div>
       <div>
         <h4>SIGHAN</h4>
         <ul>
-          <li><a href="../index.html">SIGHAN home</a></li>
-          <li><a href="../about.html">About &amp; officers</a></li>
-          <li><a href="../workshops.html">Workshop archive</a></li>
-          <li><a href="../shared-tasks.html">Shared tasks &amp; bakeoffs</a></li>
+          <li><a href="../index.html"><span lang="en">SIGHAN home</span><span lang="zh-Hans">SIGHAN 首页</span><span lang="zh-Hant">SIGHAN 首頁</span></a></li>
+          <li><a href="../about.html"><span lang="en">About &amp; officers</span><span lang="zh-Hans">关于与委员</span><span lang="zh-Hant">關於與委員</span></a></li>
+          <li><a href="../workshops.html"><span lang="en">Workshop archive</span><span lang="zh-Hans">历届研讨会存档</span><span lang="zh-Hant">歷屆研討會存檔</span></a></li>
+          <li><a href="../shared-tasks.html"><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Previous editions</h4>
+        <h4><span lang="en">Previous editions</span><span lang="zh-Hans">往届研讨会</span><span lang="zh-Hant">往屆研討會</span></h4>
         <ul>
           <li><a class="ext" href="https://sighan2024.github.io/">SIGHAN-10 (2024)</a></li>
           <li><a class="ext" href="https://sites.google.com/site/aclsighan7/">SIGHAN-7 (2013)</a></li>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/">Legacy SIGHAN site</a></li>
-          <li><a class="ext" href="https://aclanthology.org/sigs/sighan/">All proceedings</a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/"><span lang="en">Legacy SIGHAN site</span><span lang="zh-Hans">SIGHAN 旧版网站</span><span lang="zh-Hant">SIGHAN 舊版網站</span></a></li>
+          <li><a class="ext" href="https://aclanthology.org/sigs/sighan/"><span lang="en">All proceedings</span><span lang="zh-Hans">全部论文集</span><span lang="zh-Hant">全部論文集</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Association</h4>
+        <h4><span lang="en">Association</span><span lang="zh-Hans">学会与会议</span><span lang="zh-Hant">學會與會議</span></h4>
         <ul>
           <li><a class="ext" href="https://www.aclweb.org/">ACL</a></li>
+          <li><a class="ext" href="https://2027.aclweb.org/">ACL 2027</a></li>
           <li><a class="ext" href="https://aclrollingreview.org/">ACL Rolling Review</a></li>
           <li><a class="ext" href="https://openreview.net/">OpenReview</a></li>
         </ul>
       </div>
     </div>
     <div class="colophon">
-      <p><strong>SIGHAN-DCLP 2027</strong> — Diversifying Chinese Language Processing.
+      <p><span lang="en"><strong>SIGHAN-DCLP 2027</strong> — Diversifying Chinese Language Processing.
          A workshop sponsored by the ACL Special Interest Group on Chinese Language
-         Processing.</p>
-      <p>Contact: <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></p>
+         Processing, held with ACL 2027 in Kyoto, Japan.</span><span lang="zh-Hans"><strong>SIGHAN-DCLP 2027</strong>——中文语言处理的多元化。由 ACL 中文语言处理专业委员会（SIGHAN）主办，作为 ACL 2027 附属研讨会在日本京都举办。</span><span lang="zh-Hant"><strong>SIGHAN-DCLP 2027</strong>——中文語言處理的多元化。由 ACL 中文語言處理專業委員會（SIGHAN）主辦，作為 ACL 2027 附屬研討會在日本京都舉辦。</span></p>
+      <p><span lang="en">Contact:</span><span lang="zh-Hans">联系邮箱：</span><span lang="zh-Hant">聯絡信箱：</span> <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></p>
     </div>
   </div>
 </footer>

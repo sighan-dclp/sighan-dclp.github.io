@@ -1,21 +1,22 @@
 <!doctype html>
-<html lang="en" data-site="dclp">
+<html lang="en" data-site="dclp" data-title-zh-hans="征稿启事 — SIGHAN-DCLP 2027" data-title-zh-hant="徵稿啟事 — SIGHAN-DCLP 2027">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Call for Papers — SIGHAN-DCLP 2027</title>
-<meta name="description" content="Call for papers for the SIGHAN-DCLP 2027 workshop on diversifying Chinese language processing: topics, submission, and review process.">
+<meta name="description" content="Call for papers for SIGHAN-DCLP 2027, the workshop on diversifying Chinese language processing at ACL 2027 in Kyoto: topics, paper types, submission, and dates.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css?v=5">
+<script src="../assets/js/lang.js?v=3"></script>
 <link rel="icon" href="../favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
 <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main"><span lang="en">Skip to content</span><span lang="zh-Hans">跳到正文</span><span lang="zh-Hant">跳到正文</span></a>
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -27,16 +28,21 @@
       </picture>
       <span class="brand__text">
         <span class="brand__name">SIGHAN-DCLP 2027</span>
-        <span class="brand__sub">Diversifying Chinese Language Processing</span>
+        <span class="brand__sub"><span lang="en">Diversifying Chinese Language Processing</span><span lang="zh-Hans">中文语言处理的多元化</span><span lang="zh-Hant">中文語言處理的多元化</span></span>
       </span>
     </a>
     <nav class="nav" aria-label="Main">
-      <a href="index.html">Overview</a>
-      <a href="cfp.html" aria-current="page">Call for Papers</a>
-      <a href="shared-task.html">Shared Task</a>
-      <a href="organizers.html">Organizers</a>
+      <a href="index.html"><span lang="en">Overview</span><span lang="zh-Hans">概览</span><span lang="zh-Hant">概覽</span></a>
+      <a href="cfp.html" aria-current="page"><span lang="en">Call for Papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a>
+      <a href="shared-task.html"><span lang="en">Shared Task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a>
+      <a href="organizers.html"><span lang="en">Organizers</span><span lang="zh-Hans">组织者</span><span lang="zh-Hant">組織者</span></a>
       <a class="nav__cta" href="../index.html">SIGHAN&nbsp;&larr;</a>
     </nav>
+    <div class="lang-switch" role="group" aria-label="Language / 语言 / 語言">
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="true" title="English" aria-label="English">EN</button>
+      <button type="button" data-set-lang="zh-Hans" lang="zh-Hans" aria-pressed="false" title="简体中文" aria-label="简体中文">简</button>
+      <button type="button" data-set-lang="zh-Hant" lang="zh-Hant" aria-pressed="false" title="繁體中文" aria-label="繁體中文">繁</button>
+    </div>
   </div>
 </header>
 
@@ -44,137 +50,285 @@
 
   <section class="hero hero--tight">
     <div class="wrap">
-      <p class="hero__eyebrow">Call for papers</p>
-      <h1>Call for Papers</h1>
+      <p class="hero__eyebrow"><span lang="en">Call for papers</span><span lang="zh-Hans">欢迎投稿</span><span lang="zh-Hant">歡迎投稿</span></p>
+      <h1><span lang="en">Call for Papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></h1>
       <p class="hero__lede">
-        SIGHAN-DCLP 2027 invites work on Chinese language processing that moves beyond
-        contemporary, general-domain Standard Mandarin — across linguistic varieties,
-        specialized domains, historical periods, and geographic communities.
+        <span lang="en">SIGHAN-DCLP 2027, a workshop of ACL 2027 in Kyoto, Japan, invites original work on
+        Chinese language processing that moves beyond contemporary, general-domain Standard
+        Mandarin — across linguistic varieties, specialized domains, historical periods, and
+        geographic communities.</span>
+        <span lang="zh-Hans">SIGHAN-DCLP 2027 作为 ACL 2027 附属研讨会在日本京都举办，现面向全球征集原创研究成果，推动中文语言处理走出当代通用领域的标准普通话，拓展至语言变体、垂直领域、历史时期与地理社群等多个维度。</span><span lang="zh-Hant">SIGHAN-DCLP 2027 作為 ACL 2027 附屬研討會在日本京都舉辦，現面向全球徵集原創研究成果，推動中文語言處理走出當代通用領域的標準普通話，拓展至語言變體、垂直領域、歷史時期與地理社群等多個維度。</span>
       </p>
+      <div class="hero__meta">
+        <span><strong><span lang="en">Papers due</span><span lang="zh-Hans">投稿截止</span><span lang="zh-Hant">投稿截止</span></strong>
+          <span lang="en">17 April 2027</span><span lang="zh-Hans">2027年4月17日</span><span lang="zh-Hant">2027年4月17日</span></span>
+        <span><strong><span lang="en">Venue</span><span lang="zh-Hans">地点</span><span lang="zh-Hant">地點</span></strong>
+          <span lang="en">ACL 2027 · Kyoto, Japan</span><span lang="zh-Hans">ACL 2027 · 日本京都</span><span lang="zh-Hant">ACL 2027 · 日本京都</span></span>
+        <span><strong><span lang="en">Review</span><span lang="zh-Hans">评审</span><span lang="zh-Hant">評審</span></strong>
+          <span lang="en">Double-blind</span><span lang="zh-Hans">双盲评审</span><span lang="zh-Hant">雙盲評審</span></span>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap-narrow prose">
 
-      <h2 id="topics">Topics of interest</h2>
+      <h2 id="topics"><span lang="en">Topics of interest</span><span lang="zh-Hans">征稿主题</span><span lang="zh-Hant">徵稿主題</span></h2>
       <p>
-        We welcome long papers, short papers, and shared-task system descriptions on any of the
-        following, as well as broader Chinese NLP work — with particular emphasis on reusable
-        resources and benchmarks and on systematic evaluation of current LLMs.
+        <span lang="en">We invite original research along four directions — linguistic, domain, temporal, and
+        geographic diversity. Topics include, but are not limited to, those below. We also welcome
+        broader Chinese NLP work, with particular emphasis on reusable resources and benchmarks
+        and on systematic evaluation of current LLMs, and work that cuts across several
+        directions.</span>
+        <span lang="zh-Hans">本次研讨会围绕语言多样性、领域多样性、时间多样性、地理多样性四大核心方向征集原创研究成果，议题包括但不限于以下内容。我们同样欢迎更广泛的中文自然语言处理研究，尤其重视可复用的资源与评测基准，以及对当前大语言模型的系统评估；跨越多个方向的研究尤为欢迎。</span><span lang="zh-Hant">本次研討會圍繞語言多樣性、領域多樣性、時間多樣性、地理多樣性四大核心方向徵集原創研究成果，議題包括但不限於以下內容。我們同樣歡迎更廣泛的中文自然語言處理研究，尤其重視可重複使用的資源與評測基準，以及對當前大型語言模型的系統評估；跨越多個方向的研究尤為歡迎。</span>
       </p>
 
-      <h3>Linguistic diversity</h3>
+      <h3><span lang="en">Linguistic diversity</span><span lang="zh-Hans">语言多样性（Linguistic Diversity）</span><span lang="zh-Hant">語言多樣性（Linguistic Diversity）</span></h3>
       <ul>
-        <li>Sinitic varieties: Cantonese/Yue, Wu, Min, Hakka, Gan, Xiang</li>
-        <li>Low-resource Sino-Tibetan languages</li>
-        <li>Resource creation and annotation for under-served varieties</li>
-        <li>Modeling, cross-variety transfer, and multilingual/multi-varietal representation</li>
-        <li>Speech and text processing for spoken varieties</li>
-        <li>LLM adaptation to varieties with little written data</li>
+        <li><span lang="en">Chinese dialects — Wu, Cantonese/Yue, Min, Hakka, Gan, Xiang, and other Sinitic
+            varieties: speech recognition, syntactic analysis, and semantic processing</span>
+            <span lang="zh-Hans">汉语方言（如吴语、粤语、闽语、客家话、赣语、湘语等）的语音识别、句法分析与语义计算</span><span lang="zh-Hant">漢語方言（如吳語、粵語、閩語、客家話、贛語、湘語等）的語音辨識、句法分析與語意計算</span></li>
+        <li><span lang="en">Minority languages of China, including low-resource Sino-Tibetan languages:
+            bilingual alignment with Chinese, cross-lingual transfer, and joint modeling</span>
+            <span lang="zh-Hans">中国少数民族语言（包括低资源汉藏语系语言）与汉语的双语对齐、跨语言迁移与联合建模</span><span lang="zh-Hant">中國少數民族語言（包括低資源漢藏語系語言）與漢語的雙語對齊、跨語言遷移與聯合建模</span></li>
+        <li><span lang="en">Old, Middle, and Early Modern Chinese: corpus digitization and computational
+            linguistic research</span>
+            <span lang="zh-Hans">上古汉语、中古汉语、近代汉语的语料数字化与计算语言学研究</span><span lang="zh-Hant">上古漢語、中古漢語、近代漢語的語料數位化與計算語言學研究</span></li>
+        <li><span lang="en">Chinese varieties outside China — Southeast Asian Huayu, Sino-Japanese and
+            Sino-Korean vocabulary, overseas Chinese communities — and their computational
+            analysis</span>
+            <span lang="zh-Hans">域外汉语变体（包括东南亚华语、日韩汉字词、海外华人社区中文等）的计算分析</span><span lang="zh-Hant">域外漢語變體（包括東南亞華語、日韓漢字詞、海外華人社群中文等）的計算分析</span></li>
+        <li><span lang="en">Low-resource Chinese varieties: resource creation and annotation, data augmentation,
+            adapting pretrained models and LLMs to varieties with little written data, and
+            zero-shot learning</span>
+            <span lang="zh-Hans">低资源中文变体的资源建设与标注、数据增强、预训练模型与大语言模型适配（尤其是书面语料稀缺的变体）以及零样本学习方法</span><span lang="zh-Hant">低資源中文變體的資源建設與標註、資料擴增、預訓練模型與大型語言模型適配（尤其是書面語料稀缺的變體）以及零樣本學習方法</span></li>
+        <li><span lang="en">Cross-variety transfer and multilingual, multi-varietal representation</span>
+            <span lang="zh-Hans">跨变体迁移，以及多语言、多变体的统一表示建模</span><span lang="zh-Hant">跨變體遷移，以及多語言、多變體的統一表示建模</span></li>
+        <li><span lang="en">Chinese Sign Language, Chinese Braille, and other special language modalities</span>
+            <span lang="zh-Hans">中文手语、盲文等特殊语言模态的计算处理技术</span><span lang="zh-Hant">中文手語、點字等特殊語言模態的計算處理技術</span></li>
       </ul>
 
-      <h3>Domain diversity</h3>
+      <h3><span lang="en">Domain diversity</span><span lang="zh-Hans">领域多样性（Domain Diversity）</span><span lang="zh-Hant">領域多樣性（Domain Diversity）</span></h3>
       <ul>
-        <li>Specialized Chinese in law, traditional Chinese medicine, science, and finance</li>
-        <li>Domain adaptation and domain-specific pretraining</li>
-        <li>Information extraction from specialized text</li>
-        <li>Retrieval-augmented methods and knowledge-intensive reasoning</li>
-        <li>Reliability, factuality, and failure analysis of generative AI in specialized domains</li>
+        <li><span lang="en">Chinese NLP for specialized domains: medicine (including traditional Chinese
+            medicine), law, finance, education, science, and industrial manufacturing</span>
+            <span lang="zh-Hans">医疗（含中医药）、法律、金融、教育、科学、工业制造等垂直领域的中文自然语言处理技术</span><span lang="zh-Hant">醫療（含中醫藥）、法律、金融、教育、科學、工業製造等垂直領域的中文自然語言處理技術</span></li>
+        <li><span lang="en">Text processing and knowledge mining for ancient books, archival documents, and
+            excavated texts</span>
+            <span lang="zh-Hans">古籍文献、档案文书、出土文献等特色文化领域的文本处理与知识挖掘</span><span lang="zh-Hant">古籍文獻、檔案文書、出土文獻等特色文化領域的文本處理與知識探勘</span></li>
+        <li><span lang="en">Domain adaptation and transfer learning in government, e-commerce, social media,
+            and customer-service settings</span>
+            <span lang="zh-Hans">政务、电商、社交媒体、客服等场景下的领域自适应与迁移学习</span><span lang="zh-Hant">政務、電商、社群媒體、客服等場景下的領域自適應與遷移學習</span></li>
+        <li><span lang="en">Information extraction, retrieval-augmented methods, and knowledge-intensive
+            reasoning over specialized text</span>
+            <span lang="zh-Hans">面向专业文本的信息抽取、检索增强方法与知识密集型推理</span><span lang="zh-Hant">面向專業文本的資訊擷取、檢索增強方法與知識密集型推理</span></li>
+        <li><span lang="en">Reliability, factuality, and failure analysis of generative AI in specialized
+            domains</span>
+            <span lang="zh-Hans">生成式人工智能在专业领域中的可靠性、事实性与失效分析</span><span lang="zh-Hant">生成式人工智慧在專業領域中的可靠性、事實性與失效分析</span></li>
+        <li><span lang="en">Annotated datasets, evaluation benchmarks, and model adaptation for low-resource
+            domains</span>
+            <span lang="zh-Hans">低资源领域的标注数据集构建、评价基准设计与模型适配方案</span><span lang="zh-Hant">低資源領域的標註資料集構建、評價基準設計與模型適配方案</span></li>
+        <li><span lang="en">Unified cross-domain semantic representation, integration of domain knowledge,
+            and domain generalization of general-purpose models</span>
+            <span lang="zh-Hans">跨领域语义统一表示、领域知识融合与通用模型的领域泛化</span><span lang="zh-Hant">跨領域語意統一表示、領域知識融合與通用模型的領域泛化</span></li>
       </ul>
 
-      <h3>Temporal diversity</h3>
+      <h3><span lang="en">Temporal diversity</span><span lang="zh-Hans">时间多样性（Temporal Diversity）</span><span lang="zh-Hant">時間多樣性（Temporal Diversity）</span></h3>
       <ul>
-        <li>Classical and historical Chinese: segmentation, syntactic and semantic analysis</li>
-        <li>Historical language modeling and diachronic change</li>
-        <li>Information extraction from historical corpora</li>
-        <li>Alignment and translation between historical and modern Chinese</li>
+        <li><span lang="en">Diachronic Chinese corpora: construction, standardized annotation, and quality
+            control</span>
+            <span lang="zh-Hans">历时中文语料库的构建、标准化标注与质量控制</span><span lang="zh-Hant">歷時中文語料庫的構建、標準化標註與品質控制</span></li>
+        <li><span lang="en">Classical and historical Chinese: segmentation, syntactic and semantic analysis,
+            and information extraction from historical corpora</span>
+            <span lang="zh-Hans">古代汉语与历史文献的分词、句法与语义分析，以及历史语料中的信息抽取</span><span lang="zh-Hant">古代漢語與歷史文獻的斷詞、句法與語意分析，以及歷史語料中的資訊擷取</span></li>
+        <li><span lang="en">Historical language modeling, and computational modeling of lexical, syntactic,
+            and semantic change across periods</span>
+            <span lang="zh-Hans">历史语言建模，以及不同历史时期汉语词汇、句法、语义演变的计算建模</span><span lang="zh-Hant">歷史語言建模，以及不同歷史時期漢語詞彙、句法、語意演變的計算建模</span></li>
+        <li><span lang="en">Alignment and semantic matching across periods, and translation between
+            historical and modern Chinese</span>
+            <span lang="zh-Hans">跨时代文本的对齐、语义匹配与古今翻译技术</span><span lang="zh-Hant">跨時代文本的對齊、語意匹配與古今翻譯技術</span></li>
+        <li><span lang="en">Diachronic word embeddings, tracking semantic change, and the dynamics of the
+            lexicon over time</span>
+            <span lang="zh-Hans">历时词向量构建、语义演变追踪与词汇历时动态分析</span><span lang="zh-Hant">歷時詞向量構建、語意演變追蹤與詞彙歷時動態分析</span></li>
+        <li><span lang="en">Predicting language change from large diachronic corpora, and its links to social
+            and cultural change</span>
+            <span lang="zh-Hans">基于大规模历时语料的语言变化预测与社会文化变迁关联研究</span><span lang="zh-Hant">基於大規模歷時語料的語言變化預測與社會文化變遷關聯研究</span></li>
       </ul>
 
-      <h3>Geographic and sociolinguistic diversity</h3>
+      <h3><span lang="en">Geographic and sociolinguistic diversity</span><span lang="zh-Hans">地理多样性（Geographic Diversity）</span><span lang="zh-Hant">地理多樣性（Geographic Diversity）</span></h3>
       <ul>
-        <li>Chinese across mainland China, Taiwan, Hong Kong, Macao, Singapore, Malaysia, and
-            other communities</li>
-        <li>Regional variation in vocabulary, orthography, and grammar</li>
-        <li>Code-switching and contact phenomena</li>
-        <li>Evaluation sets that make regional variation measurable</li>
+        <li><span lang="en">Comparative study of Chinese across mainland China, Hong Kong, Macao, Taiwan,
+            Southeast Asia (including Singapore and Malaysia), and other regions worldwide</span>
+            <span lang="zh-Hans">中国大陆、港澳台、东南亚（包括新加坡、马来西亚）及全球其他地区的中文变体对比研究</span><span lang="zh-Hant">中國大陸、港澳臺、東南亞（包括新加坡、馬來西亞）及全球其他地區的中文變體對比研究</span></li>
+        <li><span lang="en">Regional variation in vocabulary, orthography, and grammar; code-switching and
+            contact phenomena</span>
+            <span lang="zh-Hans">词汇、书写与语法的地域差异；语码转换与语言接触现象</span><span lang="zh-Hant">詞彙、書寫與語法的地域差異；語碼轉換與語言接觸現象</span></li>
+        <li><span lang="en">Collecting, cleaning, and uniformly annotating cross-border Chinese corpora, and
+            building multi-region corpora</span>
+            <span lang="zh-Hans">跨境中文语料的采集、清洗、统一标注与多地区语料库构建</span><span lang="zh-Hant">跨境中文語料的採集、清洗、統一標註與多地區語料庫構建</span></li>
+        <li><span lang="en">Computational analysis of how regional cultures shape expression, and
+            identification of regional dialects</span>
+            <span lang="zh-Hans">地域文化差异下的语言表达特征计算与地域方言识别</span><span lang="zh-Hant">地域文化差異下的語言表達特徵計算與地域方言辨識</span></li>
+        <li><span lang="en">Fairness, robustness, and generalization of Chinese NLP models across geographic
+            communities, including evaluation sets that make regional variation measurable</span>
+            <span lang="zh-Hans">面向不同地理社群的中文自然语言处理模型公平性、鲁棒性与泛化性评估，包括可量化地域差异的评测集构建</span><span lang="zh-Hant">面向不同地理社群的中文自然語言處理模型公平性、穩健性與泛化性評估，包括可量化地域差異的評測集構建</span></li>
+        <li><span lang="en">Adapting Chinese language technology to multiple regions, and inclusive
+            applications</span>
+            <span lang="zh-Hans">多地区中文语言技术的适配优化与普惠性应用探索</span><span lang="zh-Hant">多地區中文語言技術的適配最佳化與普惠性應用探索</span></li>
       </ul>
 
-      <h3>Cross-cutting</h3>
+      <h3><span lang="en">Cross-cutting</span><span lang="zh-Hans">跨方向议题</span><span lang="zh-Hant">跨方向議題</span></h3>
       <ul>
-        <li>Reusable resources, benchmarks, and evaluation methodology for Chinese NLP</li>
-        <li>Systematic evaluation of current LLMs beyond contemporary general-domain Mandarin</li>
-        <li>Documentation of representational limitations and potential biases</li>
-        <li>Chinese semantic parsing and meaning representation — see the
-            <a href="shared-task.html">shared task</a></li>
+        <li><span lang="en">Reusable resources, benchmarks, and evaluation methodology for Chinese NLP</span>
+            <span lang="zh-Hans">面向中文自然语言处理的可复用资源、评测基准与评价方法</span><span lang="zh-Hant">面向中文自然語言處理的可重複使用資源、評測基準與評價方法</span></li>
+        <li><span lang="en">Systematic evaluation of current LLMs beyond contemporary general-domain Mandarin</span>
+            <span lang="zh-Hans">在当代通用领域普通话之外，对当前大语言模型开展系统评估</span><span lang="zh-Hant">在當代通用領域普通話之外，對當前大型語言模型開展系統評估</span></li>
+        <li><span lang="en">Documentation of representational limitations and potential biases</span>
+            <span lang="zh-Hans">对表示局限与潜在偏见的记录与分析</span><span lang="zh-Hant">對表示侷限與潛在偏見的記錄與分析</span></li>
+        <li><span lang="en">Chinese semantic parsing and meaning representation — see the
+            <a href="shared-task.html">shared task</a></span>
+            <span lang="zh-Hans">中文语义解析与语义表示——参见<a href="shared-task.html">评测任务</a></span><span lang="zh-Hant">中文語意解析與語意表示——參見<a href="shared-task.html">評測任務</a></span></li>
       </ul>
 
-      <h2 id="submission">Submission</h2>
+      <h2 id="shared-task"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></h2>
       <p>
-        The workshop uses <strong>OpenReview</strong> for direct submissions and also accepts
+        <span lang="en">Alongside the workshop we run a shared task on <strong>Chinese document-level meaning
+        representation parsing</strong>, over a Chinese Uniform Meaning Representation (UMR) data
+        set and a document-level Chinese Abstract Meaning Representation (AMR) data set. Systems
+        take a complete Chinese document and produce its structured meaning representation. The
+        evaluation runs January–April 2027; participating teams may submit system description
+        papers.</span>
+        <span lang="zh-Hans">本次研讨会同步设立<strong>中文篇章级语义表示解析</strong>评测任务，基于中文统一语义表示（UMR）数据集与篇章级中文抽象语义表示（AMR）数据集。参赛系统需输入完整的中文文档，输出对应的结构化语义表示。评测拟于2027年1月至4月举行，参赛队伍可提交系统描述论文。</span><span lang="zh-Hant">本次研討會同步設立<strong>中文篇章級語意表示解析</strong>評測任務，基於中文統一語意表示（UMR）資料集與篇章級中文抽象語意表示（AMR）資料集。參賽系統需輸入完整的中文文件，輸出對應的結構化語意表示。評測擬於2027年1月至4月舉行，參賽隊伍可提交系統描述論文。</span>
+      </p>
+      <p><a href="shared-task.html"><span lang="en">Shared task details &rarr;</span><span lang="zh-Hans">评测任务详情 &rarr;</span><span lang="zh-Hant">評測任務詳情 &rarr;</span></a></p>
+
+      <h2 id="submission"><span lang="en">Submission</span><span lang="zh-Hans">投稿说明</span><span lang="zh-Hant">投稿說明</span></h2>
+
+      <h3 id="paper-types"><span lang="en">Paper types</span><span lang="zh-Hans">论文类型</span><span lang="zh-Hant">論文類型</span></h3>
+      <ul>
+        <li><span lang="en"><strong>Long papers</strong> — up to 8 pages of content plus unlimited pages of
+            references, reporting complete, original research. Accepted long papers are presented
+            orally.</span>
+            <span lang="zh-Hans"><strong>长文</strong>：正文最多8页，参考文献页数不限，报告完整的原创研究成果；录用后将进行口头报告。</span><span lang="zh-Hant"><strong>長文</strong>：正文最多8頁，參考文獻頁數不限，報告完整的原創研究成果；錄用後將進行口頭報告。</span></li>
+        <li><span lang="en"><strong>Short papers</strong> — up to 4 pages of content plus unlimited pages of
+            references, reporting preliminary results, new resources, system demonstrations, or
+            position papers. Accepted short papers are presented as posters.</span>
+            <span lang="zh-Hans"><strong>短文</strong>：正文最多4页，参考文献页数不限，报告初步研究成果、资源构建、系统演示或学术观点讨论；录用后将进行海报展示。</span><span lang="zh-Hant"><strong>短文</strong>：正文最多4頁，參考文獻頁數不限，報告初步研究成果、資源構建、系統展示或學術觀點討論；錄用後將進行海報展示。</span></li>
+        <li><span lang="en"><strong>Shared-task system papers</strong> — up to 4 pages of content, open only to
+            teams taking part in the shared task, describing the system, results, and analysis.</span>
+            <span lang="zh-Hans"><strong>评测任务系统论文</strong>：正文最多4页，仅限参与本次评测任务的团队提交，重点介绍系统方案、实验结果与技术分析。</span><span lang="zh-Hant"><strong>評測任務系統論文</strong>：正文最多4頁，僅限參與本次評測任務的團隊提交，重點介紹系統方案、實驗結果與技術分析。</span></li>
+      </ul>
+
+      <h3 id="format"><span lang="en">Format and review</span><span lang="zh-Hans">格式与评审</span><span lang="zh-Hant">格式與評審</span></h3>
+      <p>
+        <span lang="en">All submissions must follow the official ACL 2027 formatting guidelines and use the
+        <a class="ext" href="https://github.com/acl-org/acl-style-files">ACL style files</a>.
+        Review is <strong>double-blind</strong>: papers must not contain any information that could
+        identify the authors.</span>
+        <span lang="zh-Hans">所有投稿必须严格遵循 ACL 2027 官方格式规范，使用
+        <a class="ext" href="https://github.com/acl-org/acl-style-files">ACL 论文模板</a>。评审采用<strong>双盲</strong>制度，论文中不得出现任何可识别作者身份的信息。</span><span lang="zh-Hant">所有投稿必須嚴格遵循 ACL 2027 官方格式規範，使用
+        <a class="ext" href="https://github.com/acl-org/acl-style-files">ACL 論文模板</a>。評審採用<strong>雙盲</strong>制度，論文中不得出現任何可辨識作者身份的資訊。</span>
+      </p>
+      <p>
+        <span lang="en">Submissions must be original and unpublished, and may not be submitted at the same time
+        to any other conference, journal, or workshop.</span>
+        <span lang="zh-Hans">投稿论文必须是未发表的原创工作，不得同时提交给其他任何会议、期刊或研讨会。</span><span lang="zh-Hant">投稿論文必須是未發表的原創工作，不得同時提交給其他任何會議、期刊或研討會。</span>
+      </p>
+
+      <h3 id="how"><span lang="en">How to submit</span><span lang="zh-Hans">投稿方式</span><span lang="zh-Hant">投稿方式</span></h3>
+      <p>
+        <span lang="en">The workshop uses <strong>OpenReview</strong> for direct submissions and also accepts
         papers reviewed through <strong>ACL Rolling Review (ARR)</strong>, subject to the ARR
-        deadlines for the host conference.
+        deadlines for ACL 2027.</span>
+        <span lang="zh-Hans">本研讨会通过 <strong>OpenReview</strong> 接收直接投稿，同时接收经 <strong>ACL Rolling Review（ARR）</strong>评审的论文，具体以 ACL 2027 的 ARR 时间安排为准。</span><span lang="zh-Hant">本研討會透過 <strong>OpenReview</strong> 接收直接投稿，同時接收經 <strong>ACL Rolling Review（ARR）</strong>評審的論文，具體以 ACL 2027 的 ARR 時間安排為準。</span>
       </p>
       <ul>
-        <li><strong>Direct submission</strong> — through OpenReview; link to be announced.</li>
-        <li><strong>ARR commitment</strong> — commit a reviewed ARR submission to the workshop;
-            deadline to be announced.</li>
+        <li><span lang="en"><strong>Direct submission</strong> — through OpenReview; link to be announced.</span>
+            <span lang="zh-Hans"><strong>直接投稿</strong>：通过 OpenReview 提交，投稿链接将另行公布。</span><span lang="zh-Hant"><strong>直接投稿</strong>：透過 OpenReview 提交，投稿連結將另行公佈。</span></li>
+        <li><span lang="en"><strong>ARR commitment</strong> — commit a reviewed ARR submission to the workshop;
+            deadline to be announced.</span>
+            <span lang="zh-Hans"><strong>ARR 承诺提交</strong>：已完成 ARR 评审的论文可承诺提交至本研讨会，截止日期另行公布。</span><span lang="zh-Hant"><strong>ARR 承諾提交</strong>：已完成 ARR 評審的論文可承諾提交至本研討會，截止日期另行公佈。</span></li>
       </ul>
       <p>
-        Formatting follows the standard ACL style files for the host conference. Page limits,
-        anonymity requirements, and the camera-ready schedule will be posted with the final call.
-      </p>
-      <p>
-        Questions about the call are welcome at <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>.
+        <span lang="en">Questions about the call are welcome at <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>.</span>
+        <span lang="zh-Hans">如对征稿有任何疑问，欢迎发送邮件至 <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>。</span><span lang="zh-Hant">如對徵稿有任何疑問，歡迎來信至 <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a>。</span>
       </p>
 
       <div class="callout callout--note">
-        <span class="callout__title">Ethics</span>
+        <span class="callout__title"><span lang="en">Ethics</span><span lang="zh-Hans">研究伦理</span><span lang="zh-Hant">研究倫理</span></span>
         <p>
-          Authors are expected to follow the
+          <span lang="en">Authors are expected to follow the
           <a class="ext" href="https://www.aclweb.org/portal/content/acl-code-ethics">ACL Code of Ethics</a>.
           We ask authors releasing data to state licensing clearly, document provenance, and
           protect private or sensitive information. Work on regional, historical, and community
           varieties should avoid deficit-based characterizations and should document
-          representational limitations and potential biases.
+          representational limitations and potential biases.</span>
+          <span lang="zh-Hans">作者应遵守
+          <a class="ext" href="https://www.aclweb.org/portal/content/acl-code-ethics">ACL 伦理准则</a>。发布数据的作者应明确说明许可协议、记录数据来源，并保护隐私及敏感信息。涉及地域、历史及社群语言变体的研究应避免“缺陷化”的描述，并说明其表示上的局限与潜在偏见。</span><span lang="zh-Hant">作者應遵守
+          <a class="ext" href="https://www.aclweb.org/portal/content/acl-code-ethics">ACL 倫理準則</a>。發布資料的作者應明確說明授權條款、記錄資料來源，並保護隱私及敏感資訊。涉及地域、歷史及社群語言變體的研究應避免「缺陷化」的描述，並說明其表示上的侷限與潛在偏見。</span>
         </p>
       </div>
 
-      <h2 id="review">Review process</h2>
+      <h2 id="publication"><span lang="en">Publication</span><span lang="zh-Hans">出版与收录</span><span lang="zh-Hant">出版與收錄</span></h2>
       <p>
-        Every submission receives <strong>three reviews</strong>. We anticipate 25–35 submissions,
-        and the programme committee is sized so that reviewer load stays at no more than three
-        papers per reviewer under normal conditions.
-      </p>
-      <p>
-        The programme committee is listed on the
-        <a href="organizers.html#committee">organizers page</a>.
+        <span lang="en">All accepted papers will be published in the workshop proceedings in the
+        <a class="ext" href="https://aclanthology.org/sigs/sighan/">ACL Anthology</a>, archived
+        permanently and openly alongside every previous SIGHAN workshop. Outstanding papers may be
+        recommended for a special issue of a computational linguistics journal.</span>
+        <span lang="zh-Hans">所有录用论文将正式收录于 <a class="ext" href="https://aclanthology.org/sigs/sighan/">ACL Anthology</a>，与 SIGHAN 历届研讨会论文集一同永久归档并开放获取。优秀论文将有机会被推荐至计算语言学相关期刊的特刊发表。</span><span lang="zh-Hant">所有錄用論文將正式收錄於 <a class="ext" href="https://aclanthology.org/sigs/sighan/">ACL Anthology</a>，與 SIGHAN 歷屆研討會論文集一同永久歸檔並開放取用。優秀論文將有機會被推薦至計算語言學相關期刊的特刊發表。</span>
       </p>
 
-      <h2 id="dates">Key dates</h2>
+      <h2 id="review"><span lang="en">Review process</span><span lang="zh-Hans">评审流程</span><span lang="zh-Hant">評審流程</span></h2>
+      <p>
+        <span lang="en">Every submission receives <strong>three double-blind reviews</strong>. We anticipate
+        25–35 submissions, and the programme committee is sized so that reviewer load stays at no
+        more than three papers per reviewer under normal conditions.</span>
+        <span lang="zh-Hans">每篇投稿将获得<strong>三份双盲评审意见</strong>。我们预计收到25至35篇投稿，程序委员会的规模可保证在正常情况下每位审稿人负责的论文不超过三篇。</span><span lang="zh-Hant">每篇投稿將獲得<strong>三份雙盲評審意見</strong>。我們預計收到25至35篇投稿，程序委員會的規模可保證在正常情況下每位審稿人負責的論文不超過三篇。</span>
+      </p>
+      <p>
+        <span lang="en">The programme committee is listed on the
+        <a href="organizers.html#committee">organizers page</a>.</span>
+        <span lang="zh-Hans">程序委员会名单见<a href="organizers.html#committee">组织者页面</a>。</span><span lang="zh-Hant">程序委員會名單見<a href="organizers.html#committee">組織者頁面</a>。</span>
+      </p>
+
+      <h2 id="dates"><span lang="en">Key dates</span><span lang="zh-Hans">重要日期</span><span lang="zh-Hant">重要日期</span></h2>
       <ul class="dates">
-        <li><span class="d-label">Direct submission deadline (OpenReview)</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">ARR commitment deadline</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">Notification of acceptance</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">Camera-ready due</span><span class="d-value">TBA</span></li>
-        <li><span class="d-label">Workshop</span><span class="d-value">TBA</span></li>
+        <li><span class="d-label"><span lang="en">Paper submission deadline (OpenReview)</span><span lang="zh-Hans">论文投稿截止（OpenReview）</span><span lang="zh-Hant">論文投稿截止（OpenReview）</span></span>
+            <span class="d-value"><span lang="en">17 April 2027</span><span lang="zh-Hans">2027年4月17日</span><span lang="zh-Hant">2027年4月17日</span></span></li>
+        <li><span class="d-label"><span lang="en">ARR commitment deadline</span><span lang="zh-Hans">ARR 承诺提交截止</span><span lang="zh-Hant">ARR 承諾提交截止</span></span>
+            <span class="d-value"><span lang="en">TBA</span><span lang="zh-Hans">待定</span><span lang="zh-Hant">待定</span></span></li>
+        <li><span class="d-label"><span lang="en">Notification of acceptance</span><span lang="zh-Hans">录用结果通知</span><span lang="zh-Hant">錄用結果通知</span></span>
+            <span class="d-value"><span lang="en">16 May 2027</span><span lang="zh-Hans">2027年5月16日</span><span lang="zh-Hant">2027年5月16日</span></span></li>
+        <li><span class="d-label"><span lang="en">Camera-ready due</span><span lang="zh-Hans">终稿提交截止</span><span lang="zh-Hant">終稿提交截止</span></span>
+            <span class="d-value"><span lang="en">6 June 2027</span><span lang="zh-Hans">2027年6月6日</span><span lang="zh-Hant">2027年6月6日</span></span></li>
+        <li><span class="d-label"><span lang="en">Shared task evaluation</span><span lang="zh-Hans">评测任务举办</span><span lang="zh-Hant">評測任務舉辦</span></span>
+            <span class="d-value"><span lang="en">January–April 2027</span><span lang="zh-Hans">2027年1月—4月</span><span lang="zh-Hant">2027年1月—4月</span></span></li>
+        <li><span class="d-label"><span lang="en">Workshop</span><span lang="zh-Hans">研讨会举办</span><span lang="zh-Hant">研討會舉辦</span></span>
+            <span class="d-value"><span lang="en">18 or 19 August 2027</span><span lang="zh-Hans">2027年8月18日或19日</span><span lang="zh-Hant">2027年8月18日或19日</span></span></li>
       </ul>
       <p style="color:var(--ink-muted);font-size:.93rem">
-        All deadlines are 11:59 p.m. anywhere on Earth unless stated otherwise. Dates follow the
-        host conference schedule and will be announced here.
+        <span lang="en">These dates are tentative; the final schedule will be posted on this site. All
+        deadlines are 11:59 p.m. anywhere on Earth (UTC−12).</span>
+        <span lang="zh-Hans">以上为暂定时间安排，最终日期以本网站公布为准。所有截止时间均为当日 23:59（UTC−12，即全球任何地区均为当日）。</span><span lang="zh-Hant">以上為暫定時間安排，最終日期以本網站公佈為準。所有截止時間均為當日 23:59（UTC−12，即全球任何地區均為當日）。</span>
       </p>
 
-      <h2 id="venue">Venue and format</h2>
+      <h2 id="venue"><span lang="en">Venue and format</span><span lang="zh-Hans">会议地点与形式</span><span lang="zh-Hant">會議地點與形式</span></h2>
       <p>
-        The workshop is a one-day event with invited talks, oral presentations, posters, a
-        shared-task session, and a panel or moderated discussion, run in hybrid form so that
-        remote presenters take part in the same sessions as in-person presenters. The venue will
-        be announced here.
+        <span lang="en">SIGHAN-DCLP 2027 is a workshop of
+        <a class="ext" href="https://2027.aclweb.org/">ACL 2027</a>, the 65th Annual Meeting of the
+        Association for Computational Linguistics, held in Kyoto, Japan, on 17–22 August 2027. The
+        workshop is a one-day event on one of the ACL workshop days (18–19 August), with invited
+        talks, oral presentations, posters, a shared-task session, and a panel or moderated
+        discussion. It runs in hybrid form so that remote presenters take part in the same
+        sessions as in-person presenters.</span>
+        <span lang="zh-Hans">SIGHAN-DCLP 2027 是第65届国际计算语言学协会年会
+        <a class="ext" href="https://2027.aclweb.org/">ACL 2027</a> 的附属研讨会。ACL 2027 将于2027年8月17日至22日在日本京都举行。本研讨会为期一天，安排在 ACL 研讨会日程（8月18日至19日）中的一天，包括特邀报告、口头报告、海报展示、评测任务专场以及圆桌或主持讨论，并采用线上线下混合形式，远程报告人与现场报告人在同一场次中进行报告。</span><span lang="zh-Hant">SIGHAN-DCLP 2027 是第65屆國際計算語言學協會年會
+        <a class="ext" href="https://2027.aclweb.org/">ACL 2027</a> 的附屬研討會。ACL 2027 將於2027年8月17日至22日在日本京都舉行。本研討會為期一天，安排在 ACL 研討會日程（8月18日至19日）中的一天，包括特邀報告、口頭報告、海報展示、評測任務專場以及圓桌或主持討論，並採用線上線下混合形式，遠端報告人與現場報告人在同一場次中進行報告。</span>
       </p>
 
       <div class="btn-row">
-        <a class="btn btn--primary" href="shared-task.html">Shared task &rarr;</a>
-        <a class="btn btn--ghost" href="organizers.html">Organizers &amp; committee</a>
+        <a class="btn btn--primary" href="shared-task.html"><span lang="en">Shared task &rarr;</span><span lang="zh-Hans">评测任务 &rarr;</span><span lang="zh-Hant">評測任務 &rarr;</span></a>
+        <a class="btn btn--ghost" href="organizers.html"><span lang="en">Organizers &amp; committee</span><span lang="zh-Hans">组织者与程序委员会</span><span lang="zh-Hant">組織者與程序委員會</span></a>
       </div>
 
     </div>
@@ -188,45 +342,46 @@
       <div>
         <h4>SIGHAN-DCLP 2027</h4>
         <ul>
-          <li><a href="index.html">Overview</a></li>
-          <li><a href="cfp.html">Call for papers</a></li>
-          <li><a href="shared-task.html">Shared task</a></li>
-          <li><a href="organizers.html">Organizers &amp; committee</a></li>
+          <li><a href="index.html"><span lang="en">Overview</span><span lang="zh-Hans">概览</span><span lang="zh-Hant">概覽</span></a></li>
+          <li><a href="cfp.html"><span lang="en">Call for papers</span><span lang="zh-Hans">征稿启事</span><span lang="zh-Hant">徵稿啟事</span></a></li>
+          <li><a href="shared-task.html"><span lang="en">Shared task</span><span lang="zh-Hans">评测任务</span><span lang="zh-Hant">評測任務</span></a></li>
+          <li><a href="organizers.html"><span lang="en">Organizers &amp; committee</span><span lang="zh-Hans">组织者与程序委员会</span><span lang="zh-Hant">組織者與程序委員會</span></a></li>
           <li><a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></li>
         </ul>
       </div>
       <div>
         <h4>SIGHAN</h4>
         <ul>
-          <li><a href="../index.html">SIGHAN home</a></li>
-          <li><a href="../about.html">About &amp; officers</a></li>
-          <li><a href="../workshops.html">Workshop archive</a></li>
-          <li><a href="../shared-tasks.html">Shared tasks &amp; bakeoffs</a></li>
+          <li><a href="../index.html"><span lang="en">SIGHAN home</span><span lang="zh-Hans">SIGHAN 首页</span><span lang="zh-Hant">SIGHAN 首頁</span></a></li>
+          <li><a href="../about.html"><span lang="en">About &amp; officers</span><span lang="zh-Hans">关于与委员</span><span lang="zh-Hant">關於與委員</span></a></li>
+          <li><a href="../workshops.html"><span lang="en">Workshop archive</span><span lang="zh-Hans">历届研讨会存档</span><span lang="zh-Hant">歷屆研討會存檔</span></a></li>
+          <li><a href="../shared-tasks.html"><span lang="en">Shared tasks &amp; bakeoffs</span><span lang="zh-Hans">评测任务与 Bakeoff</span><span lang="zh-Hant">評測任務與 Bakeoff</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Previous editions</h4>
+        <h4><span lang="en">Previous editions</span><span lang="zh-Hans">往届研讨会</span><span lang="zh-Hant">往屆研討會</span></h4>
         <ul>
           <li><a class="ext" href="https://sighan2024.github.io/">SIGHAN-10 (2024)</a></li>
           <li><a class="ext" href="https://sites.google.com/site/aclsighan7/">SIGHAN-7 (2013)</a></li>
-          <li><a class="ext" href="http://sighan.cs.uchicago.edu/">Legacy SIGHAN site</a></li>
-          <li><a class="ext" href="https://aclanthology.org/sigs/sighan/">All proceedings</a></li>
+          <li><a class="ext" href="http://sighan.cs.uchicago.edu/"><span lang="en">Legacy SIGHAN site</span><span lang="zh-Hans">SIGHAN 旧版网站</span><span lang="zh-Hant">SIGHAN 舊版網站</span></a></li>
+          <li><a class="ext" href="https://aclanthology.org/sigs/sighan/"><span lang="en">All proceedings</span><span lang="zh-Hans">全部论文集</span><span lang="zh-Hant">全部論文集</span></a></li>
         </ul>
       </div>
       <div>
-        <h4>Association</h4>
+        <h4><span lang="en">Association</span><span lang="zh-Hans">学会与会议</span><span lang="zh-Hant">學會與會議</span></h4>
         <ul>
           <li><a class="ext" href="https://www.aclweb.org/">ACL</a></li>
+          <li><a class="ext" href="https://2027.aclweb.org/">ACL 2027</a></li>
           <li><a class="ext" href="https://aclrollingreview.org/">ACL Rolling Review</a></li>
           <li><a class="ext" href="https://openreview.net/">OpenReview</a></li>
         </ul>
       </div>
     </div>
     <div class="colophon">
-      <p><strong>SIGHAN-DCLP 2027</strong> — Diversifying Chinese Language Processing.
+      <p><span lang="en"><strong>SIGHAN-DCLP 2027</strong> — Diversifying Chinese Language Processing.
          A workshop sponsored by the ACL Special Interest Group on Chinese Language
-         Processing.</p>
-      <p>Contact: <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></p>
+         Processing, held with ACL 2027 in Kyoto, Japan.</span><span lang="zh-Hans"><strong>SIGHAN-DCLP 2027</strong>——中文语言处理的多元化。由 ACL 中文语言处理专业委员会（SIGHAN）主办，作为 ACL 2027 附属研讨会在日本京都举办。</span><span lang="zh-Hant"><strong>SIGHAN-DCLP 2027</strong>——中文語言處理的多元化。由 ACL 中文語言處理專業委員會（SIGHAN）主辦，作為 ACL 2027 附屬研討會在日本京都舉辦。</span></p>
+      <p><span lang="en">Contact:</span><span lang="zh-Hans">联系邮箱：</span><span lang="zh-Hant">聯絡信箱：</span> <a href="mailto:sighandclp@gmail.com">sighandclp@gmail.com</a></p>
     </div>
   </div>
 </footer>
